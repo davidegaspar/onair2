@@ -1,6 +1,13 @@
 # onair2
 
-# upload
+## development
+
+#### dependencies
 ```
-aws s3 sync --delete site s3://onair2.fantasfm.com/
+npm install http-server -g
+```
+
+#### run
+```
+./local
 ```

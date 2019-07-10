@@ -1,0 +1,11 @@
+#!/bin/bash -ex
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# main dir
+cd $SCRIPT_DIR
+
+# pull
+set +e
+git pull
+set -e

@@ -1,0 +1,16 @@
+#!/bin/bash -ex
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# site folder
+cd $SCRIPT_DIR/site
+
+# commit
+set +e
+git add .
+git commit -m "$(whoami) enviar"
+git push
+set -e
+
+# upload
+aws s3 sync --dryrun --delete _site s3://radio.fantasfm.com/
