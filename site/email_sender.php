@@ -7,7 +7,7 @@ Author: QantumThemes
 Author URI: http://qantumthemes.com
 */
 ?>
-<?php  
+<?php
 
 /**======================================================
 *
@@ -18,11 +18,11 @@ Author URI: http://qantumthemes.com
 *
 *
 *
-* 
+*
 ======================================================*/
 
 
-$to      = 'your_email_here@your_provider.com'; // REPLACE WITH YOUR EMAIL ADDRESS WHERE YOU WANT TO RECEIVE THE MESSAGES
+$to      = 'your_email_geral@fantasfm.com'; // REPLACE WITH YOUR EMAIL ADDRESS WHERE YOU WANT TO RECEIVE THE MESSAGES
 $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAIL
 
 
@@ -34,20 +34,20 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ONAIR2</title>
+        <title>CONTACTOS</title>
         <meta name="description" content="Radio station HTML template">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        
+
         <!-- icons -->
         <link href='fonts/dripicons/webfont.css' rel='stylesheet' type='text/css'>
         <link href='fonts/qticons/qticons.css' rel='stylesheet' type='text/css'>
-        
+
         <!-- slick slider -->
         <link href='components/slick/slick.css' rel='stylesheet' type='text/css'>
-        
+
         <!-- swipebox -->
         <link href='components/swipebox/src/css/swipebox.min.css' rel='stylesheet' type='text/css'>
-        
+
         <!-- countdown component -->
         <link rel="stylesheet" type="text/css" href="components/countdown/css/jquery.classycountdown.css" />
 
@@ -55,17 +55,17 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
         <link rel="stylesheet" type="text/css" href="components/soundmanager/templates/qtradio-player/css/flashblock.css" />
         <link rel="stylesheet" type="text/css" href="components/soundmanager/templates/qtradio-player/css/qt-360player-volume.css" />
 
-        
+
         <!-- Main css file -->
         <link rel="stylesheet" href="css/qt-main.css"><!-- INCLUDES THE CHOSEN FRAMEWORK VIA #IMPORT AND SASS -->
-        
+
         <!-- Custom typography settings and google fonts -->
         <link rel="stylesheet" href="css/qt-typography.css">
     </head>
     <body>
     <!-- QT HEADER END ================================ -->
     <div class="qt-parentcontainer">
-    <?php  
+    <?php
     /**
      * This is the menu ==============================================================
      */
@@ -137,7 +137,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	        <li class="right"><a href="#!" class="button-playlistswitch" data-activates="channelslist"><i class="icon dripicons-media-play"></i> Listen</a></li>
 
 	    </ul>
-	    
+
 	    <!-- mobile menu icon and logo VISIBLE ONLY TABLET AND MOBILE-->
 	    <ul class="qt-desktopmenu hide-on-xl-only ">
 	        <li><a href="#" data-activates="qt-mobile-menu" class="button-collapse qt-menu-switch qt-btn qt-btn-primary qt-btn-m"><i class="dripicons-menu"></i></a></li>
@@ -148,7 +148,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 
 	<!-- mobile menu -->
 	<div id="qt-mobile-menu" class="side-nav qt-content-primary">
-	       
+
 	     <ul class=" qt-side-nav">
 	        <li><a href="index.html">Home</a></li>
 	        <li class="menu-item-has-children"><a href="page-schedule.html">Schedule</a>
@@ -190,7 +190,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 
 	        <li><a href="page-contacts.html">Contacts</a></li>
 	    </ul>
-	     
+
 	</div>
 
 	<!-- mobile toolbar -->
@@ -200,13 +200,13 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	    <li><a href="#!" class="button-playlistswitch" data-activates="channelslist"><i class="icon dripicons-media-play"></i></a></li>
 	</ul>
 
-	 <?php  
+	 <?php
     /**
      * Menu end ==============================================================
      */
     ?>
 
-    <?php  
+    <?php
     /**
      * Search bar ==============================================================
      */
@@ -231,20 +231,20 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	</div>
 	<!-- SEARCH FORM END ========================= -->
 
- 	<?php  
+ 	<?php
     /**
      * Search bar end ==============================================================
      */
     ?>
 
 	<div id="maincontent" class="qt-main">
-		
+
 		<div class="qt-container qt-vertical-padding-l">
 
 
-			<?php  
+			<?php
 			/*======================================================
-			
+
 			DYNAMIC EMAIL SENDING CODE
 
 			======================================================*/
@@ -269,9 +269,9 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 					<h4>Some fields are missing,<br>please check the data and try again</h4>
 					<a href="#" onclick="goBack()" class="btn">Go Back</a>
 				</div>
-				<?php  
+				<?php
 			} else { // IF ALL FIELDS ARE COMPILED LET'S GO ON
-				
+
 				$privacy = $_POST['privacy'];
 				$first_name = $_POST['first_name'];
 				$last_name = $_POST['last_name'];
@@ -288,7 +288,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 					<h4>Thank you, we will answer as soon as possible</h4>
 					<a href="#"  onclick="goBack();class="btn">Go Back</a>
 				</div>
-				<?php  
+				<?php
 
 			}
 
@@ -306,10 +306,10 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	Author: QantumThemes
 	Author URI: http://qantumthemes.com
 	*/
-	?>            
+	?>
 
         </div><?php /* Parent container open in header*/  ?>
-        
+
         <!-- QT BODY END ================================ -->
 
 
@@ -318,7 +318,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
         <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="js/jquery.js"></script><!--  JQUERY VERSION MUST MATCH WORDPRESS ACTUAL VERSION (NOW 1.12) -->
         <script src="js/jquery-migrate.min.js"></script><!--  JQUERY VERSION MUST MATCH WORDPRESS ACTUAL VERSION (NOW 1.12) -->
-       
+
         <!-- Framework -->
         <script src="js/materializecss/bin/materialize.min.js"></script>
 
@@ -328,7 +328,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
          <!-- Slick carousel and skrollr -->
         <script src="components/slick/slick.min.js"></script>
         <script src="components/skrollr/skrollr.min.js"></script>
-        
+
         <!-- Swipebox -->
         <script src="components/swipebox/lib/ios-orientationchange-fix.js"></script>
         <script src="components/swipebox/src/js/jquery.swipebox.min.js"></script>
