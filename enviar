@@ -13,4 +13,4 @@ git push
 set -e
 
 # upload
-aws s3 sync --dryrun --delete site s3://onair2.fantasfm.com/
+aws s3 sync --delete site s3://onair2.fantasfm.com/
