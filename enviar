@@ -2,8 +2,8 @@
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# site folder
-cd $SCRIPT_DIR/site
+# root
+cd $SCRIPT_DIR
 
 # commit
 set +e
@@ -13,4 +13,4 @@ git push
 set -e
 
 # upload
-aws s3 sync --dryrun --delete _site s3://radio.fantasfm.com/
+aws s3 sync --dryrun --delete site s3://onair2.fantasfm.com/
