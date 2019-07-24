@@ -93,28 +93,26 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	    <ul class="qt-desktopmenu hide-on-xl-and-down">
 	        <li class="qt-logo-link"><a href="./" class="brand-logo qt-logo-text"><span></span></a></li>
 
-	        <li><a href="page-schedule.html">Schedule</a>
+	        <li><a href="page-schedule.html">PROGRAMACAO</a>
 	            <ul>
 	                <li><a href="page-schedule.html">PROGRAMACAO</a></li>
 	                <li><a href="single-show.html">PROGRAMAS</a></li>
 	            </ul>
 	        </li>
-	        <li><a href="archive-podcast.html"></a>
+
 	            <ul>
-	                <li><a href="archive-podcast.html"></a></li>
-	                <li><a href="single-podcast.html"></a></li>
+
 	            </ul>
 	        </li>
 	        <li><a href="archive-members.html">EQUIPA</a>
 	             <ul>
-	                <li><a href="archive-members.html">EQUIPA</a></li>
-	                <li><a href="single-member.html"></a></li>
+	                <li><a href="archive-members.html"></a></li>
+	                <li><a href="single-member.html"></a>EQUIPA</li>
 	            </ul>
 	        </li>
-	        <li><a href="archive.html"></a>
+
 	             <ul>
-	                <li><a href="archive.html"></a></li>
-	                <li><a href="single-post.html"></a></li>
+
 	            </ul>
 	        </li>
 	        <li><a href="archive-chart.html">WEB 9</a>
