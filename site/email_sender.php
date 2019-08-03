@@ -93,10 +93,10 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	    <ul class="qt-desktopmenu hide-on-xl-and-down">
 	        <li class="qt-logo-link"><a href="./" class="brand-logo qt-logo-text"><span></span></a></li>
 
-	        <li><a href="page-schedule.html">PROGRAMACAO</a>
+	        <li><a href="programacao.html">PROGRAMACAO</a>
 	            <ul>
-	                <li><a href="page-schedule.html">PROGRAMACAO</a></li>
-	                <li><a href="single-show.html">PROGRAMAS</a></li>
+	                <li><a href="programacao.html">PROGRAMACAO</a></li>
+	                <li><a href="programas.html">PROGRAMAS</a></li>
 	            </ul>
 	        </li>
 
@@ -104,10 +104,10 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 
 	            </ul>
 	        </li>
-	        <li><a href="archive-members.html">EQUIPA</a>
+	        <li><a href="equipa.html">EQUIPA</a>
 	             <ul>
-	                <li><a href="archive-members.html"></a></li>
-	                <li><a href="single-member.html"></a>EQUIPA</li>
+	                <li><a href="equipa.html">EQUIPA</a></li>
+	                <li><a href="single-member.html"></a></li>
 	            </ul>
 	        </li>
 
@@ -115,10 +115,10 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 
 	            </ul>
 	        </li>
-	        <li><a href="archive-chart.html">WEB 9</a>
+	        <li><a href="web9-da-semana.html">WEB 9 DA SEMANA</a>
 	            <ul>
-	                <li><a href="archive-chart.html">WEB 9</a></li>
-	                <li><a href="single-chart.html"></a></li>
+	                <li><a href="archive-chart.html"></a></li>
+	                <li><a href="web9-da-semana.html">WEB 9 DA SEMANA</a></li>
 
 	        <li><a href="archive-events.html">Events</a>
 	             <ul>
@@ -148,34 +148,32 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 
 	     <ul class=" qt-side-nav">
 	        <li><a href="index.html">Home</a></li>
-	        <li class="menu-item-has-children"><a href="page-schedule.html">PROGRAMACAO</a>
+	        <li class="menu-item-has-children"><a href="programacao.html">PROGRAMACAO</a>
 	            <ul>
-	                <li><a href="page-schedule.html">PROGRAMACAO/a></li>
-	                <li><a href="single-show.html">PROGRAMAS</a></li>
+	                <li><a href="programacao.html">PROGRAMACAO/a></li>
+	                <li><a href="programas.html">PROGRAMAS</a></li>
 	            </ul>
 	        </li>
-	        <li class="menu-item-has-children"><a href="archive-podcast.html"></a>
+
 	            <ul>
-	                <li><a href="archive-podcast.html"></a></li>
-	                <li><a href="single-podcast.html"></a></li>
+
 	            </ul>
 	        </li>
-	        <li class="menu-item-has-children"><a href="archive-members.html">EQUIPA</a>
+	        <li class="menu-item-has-children"><a href="equipa.html">EQUIPA</a>
 	             <ul>
-	                <li><a href="archive-members.html">Archive</a></li>
-	                <li><a href="single-member.html">Single member page</a></li>
+	                <li><a href="equipa.html">EQUIPA</a></li>
+	                <li><a href="single-member.html"></a></li>
 	            </ul>
 	        </li>
-	        <li class="menu-item-has-children"><a href="archive.html"></a>
+
 	             <ul>
-	                <li><a href="archive.html"></a></li>
-	                <li><a href="single-post.html">Single post</a></li>
+
 	            </ul>
 	        </li>
-	        <li class="menu-item-has-children"><a href="archive-chart.html">WEB 9</a>
+	        <li class="menu-item-has-children"><a href="web9-da-semana.html">WEB 9 DA SEMANA</a>
 	            <ul>
-	                <li><a href="archive-chart.html">Charts archive</a></li>
-	                <li><a href="single-chart.html">Single chart</a></li>
+	                <li><a href="archive-chart.html"></a></li>
+	                <li><a href="web9-da-semana.html">WEB 9 DA SEMANA</a></li>
 	            </ul>
 	        </li>
 	        <li class="menu-item-has-children"><a href="archive-events.html">Events</a>
