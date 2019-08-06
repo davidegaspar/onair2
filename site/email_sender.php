@@ -127,7 +127,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	            </ul>
 	        </li>
 
-	        <li><a href="page-contacts.html">CONTACTOS</a></li>
+	        <li><a href="contactos.html">CONTACTOS</a></li>
 
 	        <li class="right"><a href="#!" data-expandable="#qtsearchbar" class="qt-btn qt-btn-l qt-scrolltop"><i class="icon dripicons-search"></i></a></li>
 	        <li class="right"><a href="page-popup.html" class="qt-popupwindow" data-name="Music Player" data-width="320" data-height="500"><i class="icon dripicons-duplicate"></i> Popup</a></li>
@@ -183,7 +183,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	            </ul>
 	        </li>
 
-	        <li><a href="page-contacts.html">CONTACTOS</a></li>
+	        <li><a href="contactos.html">CONTACTOS</a></li>
 	    </ul>
 
 	</div>
