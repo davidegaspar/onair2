@@ -75,7 +75,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	<!-- QT MENUBAR TOP ================================ -->
 	<div class="qt-menubar-top  qt-content-primary hide-on-large-and-down">
 	    <ul>
-        
+
 	    </ul>
 	</div>
 
@@ -88,7 +88,8 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	        <li><a href="programacao.html">PROGRAMACAO</a>
 	            <ul>
 	                <li><a href="programacao.html">PROGRAMACAO</a></li>
-	                <li><a href="programas.html">PROGRAMAS</a></li>
+	                <li><a href="musicnonstop.html">MÚSIC NONSTOP</a></li>
+                  <li><a href="luchtime.html">LUCH TIME</a></li>
 	            </ul>
 	        </li>
 
