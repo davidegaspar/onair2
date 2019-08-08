@@ -90,6 +90,8 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	                <li><a href="programacao.html">PROGRAMACAO</a></li>
 	                <li><a href="musicnonstop.html">MÚSIC NONSTOP</a></li>
                   <li><a href="luchtime.html">LUCH TIME</a></li>
+                  <li><a href="fantassummer.html">FANTAS SUMMER</a></li>
+                  <li><a href="random.html">RANDOM</a></li>
 	            </ul>
 	        </li>
 
@@ -144,7 +146,10 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	        <li class="menu-item-has-children"><a href="programacao.html">PROGRAMACAO</a>
 	            <ul>
 	                <li><a href="programacao.html">PROGRAMACAO/a></li>
-	                <li><a href="programas.html">PROGRAMAS</a></li>
+	                <li><a href="musicnonstop.html">MÚSIC NONSTOP</a></li>
+                  <li><a href="luchtime.html">LUCH TIME</a></li>
+                  <li><a href="fantassummer.html">FANTAS SUMMER</a></li>
+                  <li><a href="random.html">RANDOM</a></li>
 	            </ul>
 	        </li>
 
