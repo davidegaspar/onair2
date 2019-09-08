@@ -33,7 +33,7 @@ last edit 2016 11 20
     this._stats = opt.stats || function(){};
     this._played = opt.played || function(){};
   }
-  
+
   /**
    * Get attributes
    * @param  {string} k the key to get e.g. songtitle [optional] - if theres no key all attributes will be returned
@@ -82,14 +82,14 @@ last edit 2016 11 20
     });
     return this;
   };
-  
+
   /**
    * Get the played information from /played?sid=
    * @param  {Function} fn the callback function, will be passed an array of objects on success
    * @return {SHOUTcast}      return this for chaining
    */
   SHOUTcast.prototype.played = function(fn){
-    var that = this, 
+    var that = this,
     	url='http://'+this.host+':'+this.port+'/'+this.played_path+'?sid='+this.stream+'&type=json';
     console.log("===================>"+url);
     $.ajax({
@@ -98,7 +98,7 @@ last edit 2016 11 20
       timeout : 2000,
       success : function(data){
         if(!data instanceof Array){
-         return; 
+         return;
         }
         fn && fn.call(that,data);
         that._played(data);
@@ -106,7 +106,7 @@ last edit 2016 11 20
     });
     return this;
   };
-  
+
   /**
    * Start updating using the stats method
    * @return {SHOUTcast} return this for chaining
@@ -132,7 +132,7 @@ last edit 2016 11 20
     this._statsinterval && clearInterval(this._statsinterval);
     return this;
   };
-  
+
   /**
    * Start updating played information
    * @return {SHOUTcast} this for chaining
@@ -181,5 +181,5 @@ last edit 2016 11 20
   };
   var console = {};
   console.log = function(){};
-  window.console = console;
+  // window.console = console;
 }(jQuery));

@@ -3,7 +3,7 @@
  *
  *
  *  Main Script File
- *  
+ *
  **/
 
 
@@ -17,7 +17,7 @@
 	 *
 	 * 	Helpers
 	 *
-	 * 
+	 *
 	 ====================================================================*/
 
 
@@ -85,10 +85,10 @@
 
 	/**====================================================================
 	 *
-	 * 
+	 *
 	 *	12. Mobile navigation
-	 *	
-	 * 
+	 *
+	 *
 	 ====================================================================*/
 	$.fn.qtMobileNav = function() {
 		$(".side-nav").on("click", "li.menu-item-has-children > a", function(e) {
@@ -106,15 +106,15 @@
 	}
 
 
-	
+
 
 
 	/**====================================================================
 	*
-	* 
+	*
 	*  	Slick gallery
-	*  
-	* 
+	*
+	*
 	====================================================================*/
 
 	$.fn.slickGallery = function() {
@@ -194,10 +194,10 @@
 
 	/**====================================================================
 	 *
-	 * 
+	 *
 	 *	Generic class switcher (toggle class or toggleclass)
-	 *	
-	 * 
+	 *
+	 *
 	 ====================================================================*/
 	$.fn.qtQtSwitch = function() {
 		$("body").on("click", "[data-qtswitch]", function(e) {
@@ -266,10 +266,10 @@
 
 	/**====================================================================
 	 *
-	 * 
+	 *
 	 *  17. Dynamic backgrounds
-	 *  
-	 * 
+	 *
+	 *
 	 ====================================================================*/
 
 	$.fn.dynamicBackgrounds = function(targetContainer) {
@@ -307,7 +307,7 @@
 
 
 
-	/* Sidebars collapsible 
+	/* Sidebars collapsible
 	===================================================*/
 	$(".button-collapse").sideNav();
 
@@ -366,13 +366,13 @@
 		}
 	});
 
-	/* Popup player (requires library component) 
+	/* Popup player (requires library component)
 	===================================================*/
 	$.fn.popupwindow();
 
 
 
-	/* Function to go back in history 
+	/* Function to go back in history
 	===================================================*/
 	window.goBack = function(e) {
 		var defaultLocation = "http://www.mysite.com";
@@ -416,10 +416,10 @@
 
 	/**====================================================================
 	 *
-	 * 
+	 *
 	 *  Share link
-	 *  
-	 * 
+	 *
+	 *
 	 ====================================================================*/
 
 	$.fn.qtSharelink = function() {
@@ -453,7 +453,7 @@
 	/* Disable debug console output */
 	var console = {};
 	console.log = function() {};
-	window.console = console;
+	// window.console = console;
 
 
 })(jQuery);

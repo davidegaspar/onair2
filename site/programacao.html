@@ -189,22 +189,20 @@
                         <div class="qt-item-header">
                             <div class="qt-header-mid qt-vc">
                                 <div class="qt-vi">
-                                    <h5 class="qt-caption-med"><span>ON AIR</span></h5>
+                                    <h5 class="qt-caption-med"><span id="centova-onair"></span></h5>
                                     <hr class="qt-spacer-s">
-                                    <h1 class="qt-title"qt-capfont>
-                                        <a href="http://onair2.fantasfm.com/musicnonstop.html" class="qt-text-shadow">MÚSIC NONSTOP</a>
+                                    <h1 class="qt-title qt-capfont">
+                                        <a id="centova-title" href="#" class="qt-text-shadow"></a>
                                     </h1>
-                                    <h4>Com FANTAS FM</h4>
+                                    <h4 id="centova-host" ></h4>
                                     <p class="qt-small">
-                                        00:00 <i class="dripicons-arrow-thin-right"></i> 13:00
+                                        <span id="centova-from"></span> <i class="dripicons-arrow-thin-right"></i> <span id="centova-to"></span>
                                     </p>
                                     <hr class="qt-spacer-m hide-on-med-and-down">
                                     <p class="hide-on-med-and-down"><a href="http://onair2.fantasfm.com/musicnonstop.html" class="qt-btn qt-btn-l qt-btn-primary " tabindex="0"><i class="dripicons-align-justify"></i></a></p>
                                 </div>
                             </div>
-                            <div class="qt-header-bg" data-bgimage="imagestemplate/MUSIC_NONSTOP.jpg">
-                                <img src="imagestemplate/MUSIC_NONSTOP.jpg" alt="Featured image" width="1170" height="512">
-                            </div>
+                            <div id="centova-img" class="qt-header-bg"></div>
                         </div>
                     </div>
                     <!-- ON AIR SHOW END ========================= -->
@@ -2146,7 +2144,7 @@
                     <div class="qt-container">
                         <div class="row">
                             <div class="col s12 m12 l8">
-                                Copyright 2016 <a href="</a> |
+                                Copyright 2016 <a href=""</a> |
                                 <ul class="qt-menu-footer qt-small qt-list-chevron ">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">Privacy</a></li>
@@ -2261,6 +2259,11 @@
 
         <!-- Popup -->
         <script src="components/popup/popup.js"></script>
+
+        <!-- Centova -->
+        <script src="js/centova/config.js"></script>
+        <script src="js/centova/data.js"></script>
+        <script src="js/centova/get.js"></script>
 
 
         <!-- MAIN JAVASCRIPT FILE ================================ -->
