@@ -14,5 +14,13 @@ window.centova.data = {
     "from": "00:00",
     "to": "13:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
+  },
+  "742": {
+    "title": "...",
+    "link": "afternoon.html",
+    "host": "...",
+    "from": ":",
+    "to": "",
+    "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   }
 }
