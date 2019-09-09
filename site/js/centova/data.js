@@ -41,7 +41,6 @@ window.centova.data = {
   "to": "00:00",
   "img": "imagestemplate/davidegaspar.jpg"
   },
-
 },
 "97": {
   "title": "OUT NIGHT",
@@ -50,4 +49,13 @@ window.centova.data = {
   "from": "21:00",
   "to": "23:00",
   "img": "imagestemplate/davidegaspar.jpg"
+  },
+},
+"191": {
+  "title": "LUCH TIME",
+  "link": "luchtime.html",
+  "host": "Com Davide Gaspar",
+  "from": "21:00",
+  "to": "23:00",
+  "img": "imagestemplate/luch time.jpg"
 },
