@@ -25,7 +25,7 @@ window.centova.data = {
   },
 },
 "2302": {
-  "title": "1H SEM PAUSAS",
+  "title": "Davide Gaspar",
   "link": "daniel-gaspar.html",
   "host": "COM Daniel Gaspar",
   "from": "20:00",
@@ -55,7 +55,7 @@ window.centova.data = {
   "title": "LUCH TIME",
   "link": "luchtime.html",
   "host": "Com Davide Gaspar",
-  "from": "21:00",
-  "to": "23:00",
+  "from": "13:00",
+  "to": "15:00",
   "img": "imagestemplate/luch time.jpg"
 },
