@@ -22,25 +22,22 @@ window.centova.data = {
     "from": ":",
     "to": "",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
-  },
 },
 "2302": {
-  "title": "Davide Gaspar",
+  "title": "Daniel Gaspar",
   "link": "daniel-gaspar.html",
-  "host": "COM Daniel Gaspar",
+  "host": "...",
   "from": "20:00",
   "to": "21:00",
   "img": "imagestemplate/IMG_0129.jpg"
-  },
 },
 "2178": {
-  "title": "1H SEM PAUSAS",
+  "title": "Davide Gaspar",
   "link": "davide-gaspar.html",
-  "host": "Com Davide Gaspar",
+  "host": "...",
   "from": "23:00",
   "to": "00:00",
   "img": "imagestemplate/davidegaspar.jpg"
-  },
 },
 "97": {
   "title": "OUT NIGHT",
@@ -49,7 +46,6 @@ window.centova.data = {
   "from": "21:00",
   "to": "23:00",
   "img": "imagestemplate/davidegaspar.jpg"
-  },
 },
 "191": {
   "title": "LUCH TIME",
@@ -58,4 +54,12 @@ window.centova.data = {
   "from": "13:00",
   "to": "15:00",
   "img": "imagestemplate/luch time.jpg"
+},
+"2412": {
+  "title": "RANDOM",
+  "link": "random.html",
+  "host": "Com FANTAS FM",
+  "from": "15:00",
+  "to": "18:00",
+  "img": "imagestemplate/tytuyuyfgfgfg.jpg"
 },
