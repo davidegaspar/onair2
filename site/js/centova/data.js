@@ -14,7 +14,7 @@ window.centova.data = {
     "from": "00:00",
     "to": "13:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
-  },
+ },
   "742": {
     "title": "...",
     "link": "afternoon.html",
@@ -22,7 +22,7 @@ window.centova.data = {
     "from": ":",
     "to": "",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
-},
+  },
 "2302": {
   "title": "Daniel Gaspar",
   "link": "daniel-gaspar.html",
@@ -61,5 +61,5 @@ window.centova.data = {
   "host": "Com FANTAS FM",
   "from": "15:00",
   "to": "18:00",
-  "img": "imagestemplate/tytuyuyfgfgfg.jpg"
-},
+"img": "imagestemplate/tytuyuyfgfgfg.jpg"
+}
