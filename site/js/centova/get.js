@@ -9,21 +9,23 @@
         if (resp.hasOwnProperty('data') && resp.data.length > 0 && resp.data[0].offline === false) {
           render({
             playlist: resp.data[0].track.hasOwnProperty('playlist') ? resp.data[0].track.playlist.id + '' : null,
+            track: resp.data[0].track.title,
+            author: resp.data[0].track.artist,
           });
         } else {
           render({
-            playlist: 'OFF'
+            playlist: null
           });
         }
       }else{
         render({
-          playlist: 'OFF'
+          playlist: null
         });
       }
     }
     request.onerror = function() {
       render({
-        playlist: 'OFF'
+        playlist: null
       });
     }
     request.send();
@@ -31,17 +33,30 @@
 
   function render(state){
     console.log(state);
-    if (state.playlist === 'OFF') {
-      document.getElementById('centova-onair').innerText = 'OFF AIR'
+
+    if (!state.playlist) {
+      //onair
+      document.getElementById('centova-onair').innerText = 'OFFLINE'
+      document.getElementById('centova-title').innerText = ''
+      document.getElementById('centova-title').href = ''
+      document.getElementById('centova-host').innerText = ''
+      document.getElementById('centova-from').innerText = ''
+      document.getElementById('centova-to').innerText = ''
+      document.getElementById('centova-img').style.backgroundImage = ''
     } else {
+      //onair
       document.getElementById('centova-onair').innerText = 'ON AIR'
+      document.getElementById('centova-title').innerText = centova.data[state.playlist].title
+      document.getElementById('centova-title').href = centova.data[state.playlist].link
+      document.getElementById('centova-host').innerText = centova.data[state.playlist].host
+      document.getElementById('centova-from').innerText = centova.data[state.playlist].from
+      document.getElementById('centova-to').innerText = centova.data[state.playlist].to
+      document.getElementById('centova-img').style.backgroundImage = 'url(' + centova.data[state.playlist].img + ')'
+      // player
+      document.getElementById('qtradiotitle').innerText = centova.data[state.playlist].title
+      document.getElementById('qtFeedPlayerTrack').innerText = state.track
+      document.getElementById('qtFeedPlayerAuthor').innerText = state.author
     }
-    document.getElementById('centova-title').innerText = centova.data[state.playlist].title
-    document.getElementById('centova-title').href = centova.data[state.playlist].link
-    document.getElementById('centova-host').innerText = centova.data[state.playlist].host
-    document.getElementById('centova-from').innerText = centova.data[state.playlist].from
-    document.getElementById('centova-to').innerText = centova.data[state.playlist].to
-    document.getElementById('centova-img').style.backgroundImage = 'url(' + centova.data[state.playlist].img + ')'
   }
 
   get();

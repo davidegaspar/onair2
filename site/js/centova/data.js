@@ -1,12 +1,4 @@
 window.centova.data = {
-  "OFF": {
-    "title": "---",
-    "link": "musicnonstop.html",
-    "host": "---",
-    "from": "--:--",
-    "to": "--:--",
-    "img": ""
-  },
   "56": {
     "title": "MUSIC NONSTOP",
     "link": "musicnonstop.html",
