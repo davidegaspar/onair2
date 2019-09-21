@@ -63,4 +63,13 @@ window.centova.data = {
   "from": "21:00",
   "to": "00:00",
 "img": "imagestemplate/nunoreis.jpg"
+
+},
+"2359": {
+  "title": "HOUSE PARTY RADIO SHOW",
+  "link": "",
+  "host": "",
+  "from": "00:00",
+  "to": "01:00",
+"img": "imagestemplate/nunoreis.jpg"
 } }
