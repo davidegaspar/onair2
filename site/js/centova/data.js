@@ -54,4 +54,13 @@ window.centova.data = {
   "from": "15:00",
   "to": "18:00",
 "img": "imagestemplate/tytuyuyfgfgfg.jpg"
+
+},
+"234": {
+  "title": "Nuno Reis",
+  "link": "nunoreis.html",
+  "host": "",
+  "from": "21:00",
+  "to": "00:00",
+"img": "imagestemplate/nunoreis.jpg"
 } }
