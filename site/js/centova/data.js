@@ -72,4 +72,12 @@ window.centova.data = {
   "from": "00:00",
   "to": "01:00",
 "img": "imagestemplate/nunoreis.jpg"
-} }
+
+},
+"58": {
+  "title": "MEIA HORA SEM PAUSAS",
+  "link": "meiahora-sem-pausas.html",
+  "host": "Com FANTAS FM",
+  "from": "00:00",
+  "to": "02:00",
+"img": "imagestemplate/.jpg"
