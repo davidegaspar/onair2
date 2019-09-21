@@ -81,3 +81,4 @@ window.centova.data = {
   "from": "00:00",
   "to": "02:00",
 "img": "imagestemplate/.jpg"
+} }
