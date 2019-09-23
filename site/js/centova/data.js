@@ -8,12 +8,12 @@ window.centova.data = {
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
  },
   "742": {
-    "title": "...",
+    "title": "AFTERNOON",
     "link": "afternoon.html",
-    "host": "...",
-    "from": ":",
-    "to": "",
-    "img": "imagestemplate/MUSIC_NONSTOP.jpg"
+    "host": "Com Daniel Gaspar",
+    "from": "17:00",
+    "to": "19:00",
+    "img": "imagestemplate/AFTERNOON.jpg"
   },
 "2302": {
   "title": "Daniel Gaspar",
@@ -80,5 +80,13 @@ window.centova.data = {
   "host": "Com FANTAS FM",
   "from": "00:00",
   "to": "02:00",
-"img": "imagestemplate/.jpg"
+  "img": "imagestemplate/.jpg"
+},
+"58": {
+  "title": "Sara Correia",
+  "link": "sara-correia.html",
+  "host": ":",
+  "from": "19:00",
+  "to": "21:00",
+"img": "imagestemplate/saracorreia.jpg"
 } }
