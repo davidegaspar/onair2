@@ -89,4 +89,4 @@ window.centova.data = {
   "from": "19:00",
   "to": "21:00",
 "img": "imagestemplate/saracorreia.jpg"
-} },
+} }
