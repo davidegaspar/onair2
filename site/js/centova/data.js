@@ -52,7 +52,7 @@ window.centova.data = {
   "link": "random.html",
   "host": "Com FANTAS FM",
   "from": "15:00",
-  "to": "18:00",
+  "to": "17:00",
 "img": "imagestemplate/tytuyuyfgfgfg.jpg"
 
 },
