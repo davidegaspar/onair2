@@ -36,26 +36,39 @@
 
     if (!state.playlist) {
       //onair
-      document.getElementById('centova-onair').innerText = 'OFFLINE'
-      document.getElementById('centova-title').innerText = ''
-      document.getElementById('centova-title').href = ''
-      document.getElementById('centova-host').innerText = ''
-      document.getElementById('centova-from').innerText = ''
-      document.getElementById('centova-to').innerText = ''
-      document.getElementById('centova-img').style.backgroundImage = ''
+      try {
+        document.getElementById('centova-onair').innerText = 'OFFLINE'
+        document.getElementById('centova-title').innerText = ''
+        document.getElementById('centova-title').href = ''
+        document.getElementById('centova-host').innerText = ''
+        document.getElementById('centova-from').innerText = ''
+        document.getElementById('centova-to').innerText = ''
+        document.getElementById('centova-img').style.backgroundImage = ''
+      } catch (e) {
+        console.log('WARN: onair not found')
+      }
     } else {
       //onair
-      document.getElementById('centova-onair').innerText = 'ON AIR'
-      document.getElementById('centova-title').innerText = centova.data[state.playlist].title
-      document.getElementById('centova-title').href = centova.data[state.playlist].link
-      document.getElementById('centova-host').innerText = centova.data[state.playlist].host
-      document.getElementById('centova-from').innerText = centova.data[state.playlist].from
-      document.getElementById('centova-to').innerText = centova.data[state.playlist].to
-      document.getElementById('centova-img').style.backgroundImage = 'url(' + centova.data[state.playlist].img + ')'
+      try {
+        document.getElementById('centova-onair').innerText = 'ON AIR'
+        document.getElementById('centova-title').innerText = centova.data[state.playlist].title
+        document.getElementById('centova-title').href = centova.data[state.playlist].link
+        document.getElementById('centova-host').innerText = centova.data[state.playlist].host
+        document.getElementById('centova-from').innerText = centova.data[state.playlist].from
+        document.getElementById('centova-to').innerText = centova.data[state.playlist].to
+        document.getElementById('centova-img').style.backgroundImage = 'url(' + centova.data[state.playlist].img + ')'
+      } catch (e) {
+        console.log('WARN: onair not found')
+      }
+
       // player
-      document.getElementById('qtradiotitle').innerText = centova.data[state.playlist].title
-      document.getElementById('qtFeedPlayerTrack').innerText = state.track
-      document.getElementById('qtFeedPlayerAuthor').innerText = state.author
+      try {
+        document.getElementById('qtradiotitle').innerText = centova.data[state.playlist].title
+        document.getElementById('qtFeedPlayerTrack').innerText = state.track
+        document.getElementById('qtFeedPlayerAuthor').innerText = state.author
+      } catch (e) {
+        console.log('WARN: onair not found')
+      }
     }
   }
 
