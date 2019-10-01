@@ -35,8 +35,8 @@ window.centova.data = {
     "title": "Sara Correia",
     "link": "sara-correia.html",
     "host": "...",
-    "from": "20:58",
-    "to": "00:00",
+    "from": "19.00",
+    "to": "22:00",
     "img": "imagestemplate/saracorreia.jpg"
   },
   "234": {
