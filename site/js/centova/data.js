@@ -86,5 +86,14 @@ window.centova.data = {
     "from": "15:00",
     "to": "17:00",
     "img": "imagestemplate/tytuyuyfgfgfg.jpg"
+
+  },
+  "2412": {
+    "title": "WEB 9",
+    "link": "web9dasemana.html",
+    "host": "Com Daniel Gaspar",
+    "from": "20:00",
+    "to": "21:00",
+    "img": "imagestemplate/web9.jpg"
   }
 }
