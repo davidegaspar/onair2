@@ -39,15 +39,15 @@ window.centova.data = {
     "to": "00:00",
     "img": "imagestemplate/saracorreia.jpg"
   },
-  "234": {
+  "2404": {
     "title": "Nuno Reis",
     "link": "nunoreis.html",
     "host": "",
-    "from": "19:00",
-    "to": "22:00",
+    "from": "21:00",
+    "to": "00:00",
     "img": "imagestemplate/nunoreis.jpg"
   },
-  "742": {
+  "2407": {
     "title": "AFTERNOON",
     "link": "afternoon.html",
     "host": "Com Daniel Gaspar",
@@ -55,7 +55,7 @@ window.centova.data = {
     "to": "19:00",
     "img": "imagestemplate/AFTERNOON.jpg"
   },
-  "2178": {
+  "2412": {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
@@ -63,7 +63,7 @@ window.centova.data = {
     "to": "00:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
-  "2302": {
+  "2402": {
     "title": "Daniel Gaspar",
     "link": "daniel-gaspar.html",
     "host": "...",
@@ -71,7 +71,7 @@ window.centova.data = {
     "to": "21:00",
     "img": "imagestemplate/IMG_0129.jpg"
   },
-  "2359": {
+  "2415": {
     "title": "HOUSE PARTY RADIO SHOW",
     "link": "",
     "host": "",
@@ -79,7 +79,7 @@ window.centova.data = {
     "to": "01:00",
     "img": "imagestemplate/nunoreis.jpg"
   },
-  "2412": {
+"2416": {
     "title": "RANDOM",
     "link": "random.html",
     "host": "Com FANTAS FM",
@@ -95,5 +95,14 @@ window.centova.data = {
     "from": "20:00",
     "to": "21:00",
     "img": "imagestemplate/web9.jpg"
+
+  },
+  "2411": {
+    "title": "2H SEM PAUSAS",
+    "link": "2h-sem-pausas.html",
+    "host": "Com FANTAS FM",
+    "from": "20:00",
+    "to": "21:00",
+    "img": "imagestemplate/web9.jpg"
   }
-}
+   }
