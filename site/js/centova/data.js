@@ -67,8 +67,8 @@ window.centova.data = {
     "title": "Daniel Gaspar",
     "link": "daniel-gaspar.html",
     "host": "...",
-    "from": "20:00",
-    "to": "21:00",
+    "from": "22:00",
+    "to": "00:00",
     "img": "imagestemplate/IMG_0129.jpg"
   },
   "2415": {
