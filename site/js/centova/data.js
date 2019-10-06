@@ -7,7 +7,7 @@ window.centova.data = {
     "to": "18:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
-  "58": {
+  "2398": {
     "title": "MEIA HORA SEM PAUSAS",
     "link": "meiahora-sem-pausas.html",
     "host": "Com FANTAS FM",
@@ -15,7 +15,7 @@ window.centova.data = {
     "to": "20:00",
     "img": "imagestemplate/.jpg"
   },
-  "97": {
+  "2401": {
     "title": "OUT NIGHT",
     "link": "davide-gaspar.html",
     "host": "Com Davide e Sara",
