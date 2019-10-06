@@ -3,8 +3,8 @@ window.centova.data = {
     "title": "MUSIC NONSTOP",
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
-    "from": "01:00",
-    "to": "18:00",
+    "from": "00:00",
+    "to": "13:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -23,7 +23,7 @@ window.centova.data = {
     "to": "23:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
-  "191": {
+  "2396": {
     "title": "LUCH TIME",
     "link": "luchtime.html",
     "host": "Com Davide Gaspar",
@@ -83,8 +83,8 @@ window.centova.data = {
     "title": "RANDOM",
     "link": "random.html",
     "host": "Com FANTAS FM",
-    "from": "00:00",
-    "to": "01:00",
+    "from": "15:00",
+    "to": "17:00",
     "img": "imagestemplate/tytuyuyfgfgfg.jpg"
 
   },
@@ -104,5 +104,5 @@ window.centova.data = {
     "from": "20:00",
     "to": "21:00",
     "img": "imagestemplate/web9.jpg"
-  }
-   }
+}
+ }
