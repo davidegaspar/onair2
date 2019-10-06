@@ -11,7 +11,7 @@ window.centova.data = {
     "title": "MEIA HORA SEM PAUSAS",
     "link": "meiahora-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "17:00",
+    "from": "18:00",
     "to": "20:00",
     "img": "imagestemplate/.jpg"
   },
