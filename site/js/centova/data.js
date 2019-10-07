@@ -11,16 +11,16 @@ window.centova.data = {
     "title": "MEIA HORA SEM PAUSAS",
     "link": "meiahora-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "18:00",
-    "to": "20:00",
+    "from": "13:00",
+    "to": "15:00",
     "img": "imagestemplate/.jpg"
   },
   "2401": {
     "title": "OUT NIGHT",
-    "link": "davide-gaspar.html",
+    "link": "out-night.html",
     "host": "Com Davide e Sara",
-    "from": "21:00",
-    "to": "23:00",
+    "from": "19:00",
+    "to": "22:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2396": {
@@ -35,8 +35,8 @@ window.centova.data = {
     "title": "Sara Correia",
     "link": "sara-correia.html",
     "host": "...",
-    "from": "21.00",
-    "to": "22:00",
+    "from": "17.00",
+    "to": "19:00",
     "img": "imagestemplate/saracorreia.jpg"
   },
   "2404": {
