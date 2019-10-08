@@ -19,8 +19,8 @@ window.centova.data = {
     "title": "OUT NIGHT",
     "link": "out-night.html",
     "host": "Com Davide e Sara",
-    "from": "19:00",
-    "to": "22:00",
+    "from": "21:00",
+    "to": "23:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2396": {
