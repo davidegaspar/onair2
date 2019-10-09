@@ -113,5 +113,15 @@ window.centova.data = {
     "from": "22:00",
     "to": "00:00",
     "img": "imagestemplate/30c1bf283a3730cf16e9e537c3525643.jpg"
+
+
+  },
+  "2406": {
+    "title": "MUSIC NONSTOP",
+    "link": "musicnonstop.htm",
+    "host": "Com FANTAS FM",
+    "from": "22:00",
+    "to": "00:00",
+    "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   }
-  }
+   }
