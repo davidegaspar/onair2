@@ -18,10 +18,10 @@ window.centova.data = {
   "2401": {
     "title": "OUT NIGHT",
     "link": "out-night.html",
-    "host": "Com Davide e Sara",
-    "from": "21:00",
-    "to": "23:00",
-    "img": "imagestemplate/davidegaspar.jpg"
+    "host": "Com Davide Gaspar",
+    "from": "19:00",
+    "to": "22:00",
+    "img": "imagestemplate/outnight.jpg"
   },
   "2396": {
     "title": "LUCH TIME",
