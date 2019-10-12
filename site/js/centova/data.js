@@ -67,7 +67,7 @@ window.centova.data = {
     "title": "Daniel Gaspar",
     "link": "daniel-gaspar.html",
     "host": "...",
-    "from": "21:00",
+    "from": "22:00",
     "to": "00:00",
     "img": "imagestemplate/IMG_0129.jpg"
   },
@@ -91,7 +91,7 @@ window.centova.data = {
   "2399": {
     "title": "WEB 9",
     "link": "web9dasemana.html",
-    "host": "Com Daniel Gaspar",
+    "host": "Com Davide Gaspar",
     "from": "20:00",
     "to": "21:00",
     "img": "imagestemplate/web9.jpg"
