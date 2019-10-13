@@ -83,8 +83,8 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	<nav class="qt-menubar nav-wrapper qt-content-primary " >
 	    <!-- desktop menu  HIDDEN IN MOBILE AND TABLETS -->
 	    <ul class="qt-desktopmenu hide-on-xl-and-down">
-	        <ul class="qt-desktopmenu hide-on-xl-and-down"><li class="qt-logo-link"><a href="/" class="brand-logo qt-logo-text"><img src="imagestemplate/fantasfm_logo_site.png" alt="Home"></a></li>
-
+	        <ul class="qt-desktopmenu hide-on-xl-and-down"><li class="qt-logo-link"><a href="/" class="brand-logo qt-logo-text"><img src="imagestemplate/fantasfm_logo_site.jpg" alt="Home"></a></li>
+          <li><a href="index.html">Home</a></li>
 	        <li><a href="programacao.html">PROGRAMACAO</a>
 	            <ul>
 	                <li><a href="programacao.html">PROGRAMACAO</a></li>
@@ -122,7 +122,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	        <li><a href="contactos.html">CONTACTOS</a></li>
 
 	        <li class="right"><a href="#!" data-expandable="#qtsearchbar" class="qt-btn qt-btn-l qt-scrolltop"><i class="icon dripicons-search"></i></a></li>
-	        <li class="right"><a href="page-popup.html" class="qt-popupwindow" data-name="Music Player" data-width="320" data-height="500"><i class="icon dripicons-duplicate"></i> Popup</a></li>
+	        <li class="right"><a href="popup.html" class="qt-popupwindow" data-name="Music Player" data-width="320" data-height="500"><i class="icon dripicons-duplicate"></i> Popup</a></li>
 	        <li class="right"><a href="#!" class="button-playlistswitch" data-activates="channelslist"><i class="icon dripicons-media-play"></i> Listen</a></li>
 
 	    </ul>
@@ -143,7 +143,7 @@ $subject = 'NEW MESSAGE FROM YOUR WEBSITE'; // CUSTOMIZE THE SUBJECT OF THE EMAI
 	        <li class="menu-item-has-children"><a href="programacao.html">PROGRAMACAO</a>
 	            <ul>
 	                <li><a href="programacao.html">PROGRAMACAO/a></li>
-                    
+
 	            </ul>
 	        </li>
 
