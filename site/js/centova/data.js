@@ -32,9 +32,9 @@ window.centova.data = {
     "img": "imagestemplate/luch time.jpg"
   },
   "2403": {
-    "title": "Sara Correia",
+    "title": "1H SEM PAUSAS",
     "link": "sara-correia.html",
-    "host": "...",
+    "host": "Com Sara Correia",
     "from": "21.00",
     "to": "22:00",
     "img": "imagestemplate/saracorreia.jpg"
