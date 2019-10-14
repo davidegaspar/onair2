@@ -35,8 +35,8 @@ window.centova.data = {
     "title": "Sara Correia",
     "link": "sara-correia.html",
     "host": "...",
-    "from": "17.00",
-    "to": "19:00",
+    "from": "21.00",
+    "to": "22:00",
     "img": "imagestemplate/saracorreia.jpg"
   },
   "2404": {
@@ -64,11 +64,11 @@ window.centova.data = {
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
-    "title": "1H SEM PAUSAS",
+    "title": "Daniel Gaspar",
     "link": "daniel-gaspar.html",
-    "host": "Com Daniel Gaspar",
-    "from": "23:00",
-    "to": "00:00",
+    "host": "...",
+    "from": "19:00",
+    "to": "22:00",
     "img": "imagestemplate/IMG_0129.jpg"
   },
   "2415": {
