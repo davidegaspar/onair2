@@ -59,8 +59,8 @@ window.centova.data = {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "12:00",
-    "to": "14:00",
+    "from": "22:00",
+    "to": "00:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
