@@ -39,7 +39,7 @@
       try {
         document.getElementById('centova-onair').innerText = 'OFFLINE'
         document.getElementById('centova-title').innerText = ''
-        document.getElementById('centova-title').href = ''
+        document.getElementById('centova-link').href = ''
         document.getElementById('centova-host').innerText = ''
         document.getElementById('centova-from').innerText = ''
         document.getElementById('centova-to').innerText = ''
@@ -52,7 +52,7 @@
       try {
         document.getElementById('centova-onair').innerText = 'ON AIR'
         document.getElementById('centova-title').innerText = centova.data[state.playlist].title
-        document.getElementById('centova-title').href = centova.data[state.playlist].link
+        document.getElementById('centova-link').href = centova.data[state.playlist].link
         document.getElementById('centova-host').innerText = centova.data[state.playlist].host
         document.getElementById('centova-from').innerText = centova.data[state.playlist].from
         document.getElementById('centova-to').innerText = centova.data[state.playlist].to
