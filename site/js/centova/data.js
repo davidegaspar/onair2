@@ -73,11 +73,11 @@ window.centova.data = {
   },
   "2415": {
     "title": "HOUSE PARTY RADIO SHOW",
-    "link": "",
-    "host": "",
+    "link": "house-party-radioshow.html",
+    "host": "Com HOUSE PARTY RADIO SHOW",
     "from": "00:00",
     "to": "01:00",
-    "img": "imagestemplate/nunoreis.jpg"
+    "img": "imagestemplate/HOUSE PARTY RADIO SHOW.jpg"
   },
 "2416": {
     "title": "RANDOM",
