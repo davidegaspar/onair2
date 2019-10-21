@@ -3,7 +3,7 @@ window.centova.data = {
     "title": "MUSIC NONSTOP",
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
-    "from": "00:00",
+    "from": "23:00",
     "to": "13:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
@@ -20,7 +20,7 @@ window.centova.data = {
     "link": "out-night.html",
     "host": "Com Davide Gaspar",
     "from": "19:00",
-    "to": "22:00",
+    "to": "21:00",
     "img": "imagestemplate/outnight.jpg"
   },
   "2396": {
@@ -32,11 +32,11 @@ window.centova.data = {
     "img": "imagestemplate/luch time.jpg"
   },
   "2403": {
-    "title": "1H SEM PAUSAS",
+    "title": "EMISSAO ESPECIAL",
     "link": "sara-correia.html",
     "host": "Com Sara Correia",
     "from": "21.00",
-    "to": "22:00",
+    "to": "23:00",
     "img": "imagestemplate/saracorreia.jpg"
   },
   "2404": {
@@ -59,8 +59,8 @@ window.centova.data = {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "16:00",
-    "to": "20:00",
+    "from": "19:00",
+    "to": "21:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
