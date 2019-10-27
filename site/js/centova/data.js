@@ -69,7 +69,7 @@ window.centova.data = {
     "host": "...",
     "from": "21:00",
     "to": "00:00",
-    "img": "imagestemplate/fhhghgfhfh.jpg"
+    "img": "imagestemplate/IMG_0129.jpg"
   },
   "2415": {
     "title": "HOUSE PARTY RADIO SHOW",
