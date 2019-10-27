@@ -3,7 +3,7 @@ window.centova.data = {
     "title": "MUSIC NONSTOP",
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
-    "from": "23:00",
+    "from": "01:00",
     "to": "14:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
