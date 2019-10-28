@@ -48,12 +48,12 @@ window.centova.data = {
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
-    "title": "AFTERNOON",
-    "link": "afternoon.html",
-    "host": "Com Daniel Gaspar",
+    "title": "MÚSIC NONSTOP",
+    "link": "Com FANTAS FM",
+    "host": "",
     "from": "17:00",
     "to": "19:00",
-    "img": "imagestemplate/AFTERNOON.jpg"
+    "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2412": {
     "title": "Davide Gaspar",
