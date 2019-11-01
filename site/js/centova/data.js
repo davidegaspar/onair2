@@ -123,5 +123,15 @@ window.centova.data = {
     "from": "15:00",
     "to": "17:00",
     "img": "imagestemplate/PILOTOAUTOMATICO.jpg"
+
+
+  },
+  "2409": {
+    "title": "FEEL THE MÚSIC",
+    "link": "feelthemusic.html"",
+    "host": "Com FANTAS FM",
+    "from": "00:00",
+    "to": "01:00",
+    "img": "imagestemplate/FEEL THE MUSIC.jpg"
   }
    }
