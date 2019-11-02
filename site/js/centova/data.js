@@ -127,7 +127,7 @@ window.centova.data = {
 
   },
   "2409": {
-    "title": "FEEL THE MÚSIC",
+    "title": "FEEL THE MUSIC",
     "link": "feelthemusic.html"",
     "host": "Com FANTAS FM",
     "from": "00:00",
