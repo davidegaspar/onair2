@@ -3,8 +3,8 @@ window.centova.data = {
     "title": "MUSIC NONSTOP",
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
-    "from": "0100:",
-    "to": "14:00",
+    "from": "000:",
+    "to": "13:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -48,19 +48,19 @@ window.centova.data = {
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
-    "title": "MÚSIC NONSTOP",
-    "link": "Com FANTAS FM",
-    "host": "",
+    "title": "AFTERNOON",
+    "link": "afternoon.html",
+    "host": "Com Daniel Gaspar",
     "from": "17:00",
     "to": "19:00",
-    "img": "imagestemplate/MUSIC_NONSTOP.jpg"
+    "img": "imagestemplate/AFTERNOON.jpg"
   },
   "2412": {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "22:00",
-    "to": "0:00",
+    "from": "19:00",
+    "to": "21:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
