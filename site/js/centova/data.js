@@ -4,7 +4,7 @@ window.centova.data = {
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
     "from": "01:00",
-    "to": "14:00",
+    "to": "13:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -32,11 +32,11 @@ window.centova.data = {
     "img": "imagestemplate/luch time.jpg"
   },
   "2403": {
-    "title": "EMISSAO ESPECIAL",
+    "title": "Sara Correia",
     "link": "sara-correia.html",
-    "host": "Com Sara Correia",
+    "host": "",
     "from": "21.00",
-    "to": "23:00",
+    "to": "22:00",
     "img": "imagestemplate/saracorreia.jpg"
   },
   "2404": {
