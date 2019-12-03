@@ -18,9 +18,9 @@ window.centova.data = {
   "2401": {
     "title": "OUT NIGHT",
     "link": "out-night.html",
-    "host": "Com Davide Gaspar",
+    "host": "Com Davide Gaspar e Sara Correia",
     "from": "19:00",
-    "to": "21:00",
+    "to": "22:00",
     "img": "imagestemplate/outnight.jpg"
   },
   "2396": {
@@ -59,8 +59,8 @@ window.centova.data = {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "19:00",
-    "to": "21:00",
+    "from": "22:00",
+    "to": "00:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
