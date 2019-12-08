@@ -103,7 +103,7 @@ window.centova.data = {
     "host": "Com FANTAS FM",
     "from": "14:00",
     "to": "16:00",
-    "img": "imagestemplate/.jpg"
+    "img": "imagestemplate/fantasfm_logo_3.jpg"
 
   },
   "2406": {
