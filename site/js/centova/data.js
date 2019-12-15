@@ -64,9 +64,9 @@ window.centova.data = {
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
-    "title": "Daniel Gasparr",
+    "title": "1H SEM PAUSAS",
     "link": "daniel-gaspar.html",
-    "host": "...",
+    "host": "COM Daniel Gaspar",
     "from": "21:00",
     "to": "00:00",
     "img": "imagestemplate/IMG_0129.jpg"
