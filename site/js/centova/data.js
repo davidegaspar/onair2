@@ -67,7 +67,7 @@ window.centova.data = {
     "title": "1H SEM PAUSAS",
     "link": "daniel-gaspar.html",
     "host": "COM Daniel Gaspar",
-    "from": "21:00",
+    "from": "23:00",
     "to": "00:00",
     "img": "imagestemplate/IMG_0129.jpg"
   },
