@@ -4,7 +4,7 @@ window.centova.data = {
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
     "from": "00:00",
-    "to": "12:00",
+    "to": "13:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -59,8 +59,8 @@ window.centova.data = {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "22:00",
-    "to": "00:00",
+    "from": "19:00",
+    "to": "21:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
