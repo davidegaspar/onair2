@@ -4,7 +4,7 @@ window.centova.data = {
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
     "from": "00:00",
-    "to": "13:00",
+    "to": "11:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -43,8 +43,8 @@ window.centova.data = {
     "title": "Nuno Reis",
     "link": "nunoreis.html",
     "host": "",
-    "from": "21:00",
-    "to": "22:00",
+    "from": "11:00",
+    "to": "13:00",
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
@@ -59,8 +59,8 @@ window.centova.data = {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "19:00",
-    "to": "21:00",
+    "from": "1300",
+    "to": "16:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
@@ -134,4 +134,15 @@ window.centova.data = {
     "to": "01:00",
     "img": "imagestemplate/feelthemusic.jpg"
   }
-   }
+
+
+},
+"2946": {
+  "title": "AS 50 DA FANTAS FM",
+  "link": "",
+  "host": "Com Daniel Gaspar",
+  "from": "16:00",
+  "to": "20:00",
+  "img": "imagestemplate/feelthemusic.jpg"
+}
+ }
