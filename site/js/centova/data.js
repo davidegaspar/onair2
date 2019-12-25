@@ -133,10 +133,7 @@ window.centova.data = {
     "from": "00:00",
     "to": "01:00",
     "img": "imagestemplate/feelthemusic.jpg"
-  }
-
-
-},
+  },
 "2946": {
   "title": "AS 50 DA FANTAS FM",
   "link": "daniel-gaspar.html",
@@ -145,4 +142,4 @@ window.centova.data = {
   "to": "20:00",
   "img": "imagestemplate/.jpg"
 }
- },
+ }
