@@ -144,5 +144,5 @@ window.centova.data = {
   "from": "16:00",
   "to": "20:00",
   "img": "imagestemplate/feelthemusic.jpg"
-},
-  }
+}
+ },
