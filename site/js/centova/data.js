@@ -120,8 +120,8 @@ window.centova.data = {
     "title": "PILOTO AUTOMATICO",
     "link": "pilotoautomatico.html",
     "host": "Com Joana Gama",
-    "from": "16:00",
-    "to": "21:00",
+    "from": "01:00",
+    "to": "02:00",
     "img": "imagestemplate/408164_265814316825661_896496131_n-e1343678427700.jpg"
 
 
