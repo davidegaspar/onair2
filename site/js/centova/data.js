@@ -43,8 +43,8 @@ window.centova.data = {
     "title": "Nuno Reis",
     "link": "nunoreis.html",
     "host": "",
-    "from": "11:00",
-    "to": "13:00",
+    "from": "12:00",
+    "to": "14:00",
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
@@ -83,8 +83,8 @@ window.centova.data = {
     "title": "RANDOM",
     "link": "random.html",
     "host": "Com FANTAS FM",
-    "from": "15:00",
-    "to": "17:00",
+    "from": "14:00",
+    "to": "16:00",
     "img": "imagestemplate/tytuyuyfgfgfg.jpg"
 
   },
