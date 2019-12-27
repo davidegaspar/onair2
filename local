@@ -2,6 +2,9 @@
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+# generate
+go run generate.go
+
 # site folder
 cd $SCRIPT_DIR/site
 
