@@ -1,7 +1,7 @@
 package main
 
 import (
-	// "log"
+	"log"
 	"os"
 	"fmt"
 	"path/filepath"
@@ -16,14 +16,23 @@ func main() {
 
 	matches, _ := filepath.Glob("./pages/*.html")
 
-	for _, file := range matches {
-		fmt.Printf("creating: %s ...", file)
-		w, _ := os.Create("./site/" + file)
-		blocks.ExecuteTemplate(w, file, nil)
-		// if err != nil {
-		// 	log.Fatalf("err: %s", err)
-		// }
+	for _, path := range matches {
+
+		file := filepath.Base(path)
+
+		fmt.Printf("%s: creating...\n", file)
+
+		w, err := os.Create("./site/" + file)
+		if err != nil {
+			log.Fatalf("err: %s", err)
+		}
+
+		err = blocks.ExecuteTemplate(w, file, nil)
+		if err != nil {
+			log.Fatalf("err: %s", err)
+		}
+
 		w.Close()
-		fmt.Printf(" done\n")
+		fmt.Printf("%s: done.\n", file)
 	}
 }
