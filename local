@@ -2,10 +2,6 @@
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# generate
-cd $SCRIPT_DIR
-go run generate.go
-
 # serve
 cd $SCRIPT_DIR/site
-http-server -o
+http-server -o --silent
