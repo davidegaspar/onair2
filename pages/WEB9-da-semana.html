@@ -1,107 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-	
-<!-- head -->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>FANTAS FM -  BEM VINDO AO NOVO SITE DA FANTAS FM!</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <!-- icons -->
-  <link href='fonts/dripicons/webfont.css' rel='stylesheet' type='text/css'>
-  <link href='fonts/qticons/qticons.css' rel='stylesheet' type='text/css'>
-
-  <!-- slick slider -->
-  <link href='components/slick/slick.css' rel='stylesheet' type='text/css'>
-
-  <!-- swipebox -->
-  <link href='components/swipebox/src/css/swipebox.min.css' rel='stylesheet' type='text/css'>
-
-  <!-- countdown component -->
-  <link rel="stylesheet" type="text/css" href="components/countdown/css/jquery.classycountdown.css" />
-
-  <!-- QT 360 PLAYER component -->
-  <link rel="stylesheet" type="text/css" href="components/soundmanager/templates/qtradio-player/css/flashblock.css" />
-  <link rel="stylesheet" type="text/css" href="components/soundmanager/templates/qtradio-player/css/qt-360player-volume.css" />
-
-
-  <!-- Main css file -->
-  <link rel="stylesheet" href="css/qt-main.css"><!-- INCLUDES THE CHOSEN FRAMEWORK VIA #IMPORT AND SASS -->
-
-  <!-- Custom typography settings and google fonts -->
-  <link rel="stylesheet" href="css/qt-typography.css">
-</head>
-<!-- head -->
-
+    	{{template "head"}}
     <body>
-    <!-- QT HEADER END ================================ -->
+        <!-- QT HEADER END ================================ -->
         <div class="qt-parentcontainer">
+          {{template "menu"}}
 
-          
-<!-- menu -->
-<!-- QT MENUBAR TOP ================================ -->
-<!-- QT MENUBAR  ================================ -->
-<nav class="qt-menubar nav-wrapper qt-content-primary ">
- <!-- desktop menu  HIDDEN IN MOBILE AND TABLETS -->
- <ul class="qt-desktopmenu hide-on-xl-and-down">
-   <li class="qt-logo-link"><a href="./" class="brand-logo qt-logo-text">ONAIR<span>2</span></a></li>
-   <li><a href="programacao.html">PROGRAMAÇÃO</a></li>
-   <li><a href="equipa.html">EQUIPA</a></li>
-   <li><a href="WEB9-da-semana.html">WEB 9 DA SEMANA</a></li>
-   <li><a href="archive-events.html">ENVENTOS</a></li>
-   <li><a href="contactos.html">CONTACTOS</a></li>
-   <li class="right"><a href="#!" data-expandable="#qtsearchbar" class="qt-btn qt-btn-l qt-scrolltop"><i class="icon dripicons-search"></i></a></li>
-   <li class="right"><a href="page-popup.html" class="qt-popupwindow" data-name="Music Player" data-width="320" data-height="500"><i class="icon dripicons-duplicate"></i> Popup</a></li>
-   <li class="right"><a href="#!" class="button-playlistswitch" data-activates="channelslist"><i class="icon dripicons-media-play"></i> EMISSÃO</a></li>
- </ul>
- <!-- mobile menu icon and logo VISIBLE ONLY TABLET AND MOBILE-->
- <ul class="qt-desktopmenu hide-on-xl-only ">
-   <li><a href="#" data-activates="qt-mobile-menu" class="button-collapse qt-menu-switch qt-btn qt-btn-primary qt-btn-m"><i class="dripicons-menu"></i></a></li>
-   <li><a href="#!" class="brand-logo qt-logo-text">ONAIR2</a></li>
- </ul>
-</nav>
-<!-- mobile menu -->
-<div id="qt-mobile-menu" class="side-nav qt-content-primary">
- <ul class=" qt-side-nav">
-   <li><a href="index.html">Home</a></li>
-   <li class="menu-item-has-children"><a href="page-schedule.html">prog</a></li>
- </ul>
-</div>
-<!-- mobile toolbar -->
-<ul class="qt-mobile-toolbar qt-content-primary-dark qt-content-aside hide-on-large-only">
- <li><a href="#!" data-expandable="#qtsearchbar" class="qt-scrolltop"><i class="icon dripicons-search"></i></a></li>
- <li><a href="page-popup.html" class="qt-popupwindow" data-name="Music Player" data-width="320" data-height="500"><i class="icon dripicons-duplicate"></i></a></li>
- <li><a href="#!" class="button-playlistswitch" data-activates="channelslist"><i class="icon dripicons-media-play"></i></a></li>
-</ul>
-<!-- menu -->
-
-
-          
-<!-- search -->
-<!-- SEARCH FORM ========================= -->
-<div id="qtsearchbar" class="qt-searchbar qt-content-primary qt-expandable">
-  <div class="qt-expandable-inner">
-    <form method="post" action="#search" class="qt-inline-form">
-      <div class="row qt-nopadding">
-        <div class="col s12 m8 l9">
-          <input placeholder="Search" value="" id="searchtex" type="text" class="validate qt-input-l">
-        </div>
-        <div class="col s12 m3 l2">
-          <input type="button" value="Search" class="qt-btn qt-btn-primary qt-btn-l qt-fullwidth">
-        </div>
-        <div class="col s12 m1 l1">
-          <a href="#!" class="qt-btn qt-btn-l qt-btn-secondary qt-fullwidth aligncenter" data-expandable="#qtsearchbar"><i class="dripicons-cross"></i></a>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-<!-- SEARCH FORM END ========================= -->
-<!-- search -->
-
+          {{template "search"}}
 
             <div id="maincontent" class="qt-main">
                 <!-- ======================= HEADER SECTION ======================= -->
@@ -111,25 +17,25 @@
                         <ul class="qt-tags">
                             <li>
                                 <a href="#">
-                                    Category name
+
                                 </a>
                             </li>
                         </ul>
                         <h1 class="qt-caption qt-spacer-s">
-                           DAVID CARREIRA ALTICE ARENA 360
+                            WEB 9
                         </h1>
                         <h4 class="qt-subtitle">
 
                         </h4>
                     </div>
-                    <div class="qt-header-bg" data-bgimage="imagestemplate/aaaabbbbb.jpg">
-                      <img src="imagestemplate/aaaabbbbb.jpg" alt="Featured image" width="690" height="302">
+                    <div class="qt-header-bg" data-bgimage="imagestemplate/web9.jpg">
+                        <img src="imagestemplate/web9.jpg" alt="Featured image" width="690" height="302">
                     </div>
                 </div>
                 <!-- HEADER CAPTION END ========================= -->
                 <!-- ======================= CONTENT SECTION ======================= -->
-                <div class="qt-container qt-vertical-padding-l">
-                    <div class="row">
+                <div class="qt-container">
+                    <div class="row qt-vertical-padding-l ">
                         <div class="col s12 m12 l1 qt-pushpin-container">
                             <div class="qt-pushpin">
                                 <!-- SHARE FUNCTIONS ================================================== -->
@@ -167,33 +73,213 @@
                             <hr class="qt-spacer-m">
                         </div>
                         <div class="col s12 m12 l8">
-                            <div class="qt-the-content">
-                                <a href="imagestemplate/aaaabbbbb.jpg" target="_blank">
-                                    <img src="imagestemplate/aaaabbbbb.jpg" alt="Header image" width="1200" height="525" class="qt-img-responsive">
-                                </a>
-                                <!-- POST CONTENT ========================= -->
-                								<p><strong></strong></p>Três anos depois de um concerto 360º no Campo Pequeno, David Carreira volta a surpreender ao anunciar novo 360º. Desta vez na maior sala de espetáculos do país, Altice Arena. Com data marcada para 30 de novembro de 2019, promete ser algo nunca visto. Uma mega produção RegiBrainstorm que combina música com dança, e ainda efeitos especiais de luz e vídeo.
+                            <ul class="collapsible qt-chart-tracklist" data-collapsible="accordion">
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/TAY-Dylan-Não-Preciso-letra-lyrics.jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>1</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">TAY</h3>
+                                            <p>Não Preciso</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body qt-paper">
+                                        <p>
 
-O público vai ter a oportunidade de ouvir todos os sucessos de David desde o início da sua carreira em 2011. O artista não pára de surpreender e desta vez torna-se no primeiro cantor português a fazer um concerto 360 no Altice Arena.
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- CHART TRACK END ========================= -->
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/36491749_800_800.jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>2</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">Piruka</h3>
+                                            <p>Não Fiques Para Traz</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body qt-paper">
+                                        <p>
 
-Este é sem dúvida um dos anos mais importantes da sua carreira. Disco de Ouro em apenas 5 semanas com o seu último álbum "7", soma já mais de 30 milhões de visualizações nos seus singles deste novo álbum, e acaba de lançar o seu documentário, no qual apresenta ao público todo o trabalha que está por trás da produção deste "7".
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- CHART TRACK END ========================= -->
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/OnlyLoveCoverShaggy.jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>3</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">Shaggy</h3>
+                                            <p>Only_Love</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body qt-paper">
+                                        <p>
 
-David Carreira revelou-se nos últimos anos um exemplo para a nova geração de música Pop Portuguesa, tendo feito várias participações de sucesso com artistas nacionais e internacionais. Não ficou por aqui e mostrou mesmo que quer levar a sua música além-fronteiras, nos últimos meses rumou ao Brasil onde promete apresentar novidades para breve.
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- CHART TRACK END ========================= -->
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/maxresdefault.jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>4</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">GRAGNation</h3>
+                                            <p>UMA BECA</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body qt-paper">
+                                        <p>
+
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- CHART TRACK END ========================= -->
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/Tom_Walker_-_Leave_a_Light_On.jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>5</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">Tom Walker</h3>
+                                            <p> Leave a Light On</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body qt-paper">
+                                        <p>
+
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- CHART TRACK END ========================= -->
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/transferir (1).jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>6</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">Aiana Grande</h3>
+                                            <p>7 rings</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body qt-paper">
+                                        <p>
+
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- CHART TRACK END ========================= -->
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/Xxxtentacion_mugshot.jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>7</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">xxxtetacione</h3>
+                                            <p>I spoke the devil in miami, he said everything would be fine</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body qt-paper">
+                                        <p>
+
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- CHART TRACK END ========================= -->
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/295012-little-mix-anuncia-data-de-lancamento-do-diapo-1.jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>8</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">Litle Mix</h3>
+                                            <p>Woman Like Me</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body qt-paper">
+                                        <p>
+
+                                        </p>
+                                    </div>
+                                </li>
+                                <!-- CHART TRACK END ========================= -->
+                                <!-- CHART TRACK ========================= -->
+                                <li class="qt-part-chart qt-chart-track qt-negative qt-card-s">
+                                    <div class="qt-chart-table collapsible-header qt-content-primary">
+                                        <div class="qt-position">
+                                            <img src="imagestemplate/Ellie_Goulding_and_Diplo_–_Close_to_Me.jpg" class="qt-chart-cover" alt="Chart track" width="170" height="170">
+                                            <span>9</span>
+                                        </div>
+                                        <div class="qt-titles">
+                                            <h3 class="qt-ellipsis qt-t">Elie Goulding</h3>
+                                            <p>Close to Me</p>
+                                        </div>
+                                        <div class="qt-action">
+                                            <a href="#purchase-link" class="qt-btn qt-btn-ghost qt-btn-l"><i class="dripicons-cart"></i></a>
+                                        </div>
+                                    </div>
+                                    <div  class="collapsible-body qt-paper">
+                                        <p>
+
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <!-- CHART TRACK END ========================= -->
+
+<iframe width="100%" height="600" frameborder="0" allowtransparency="true" src="https://survs.com/embed/l7mrz4qj9e?s_transparent=true&s_hheader=true"></iframe>
 
 
-
-PASSATEMPO DAVID CARREIRA
-
-Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia 4 novembro
-
-
-
-
-
-                             </div>
-                          </div>
+                            </ul>
+                        </div>
                         <div class="qt-sidebar col s12 m12 l3">
-
                             <!-- SIDEBAR ================================================== -->
                             <div class="qt-widgets qt-sidebar-main qt-text-secondary row">
                                 <div class="col s12 m3 l12">
@@ -214,43 +300,43 @@ Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia
                                 </div>
                                 <div class="col s12 m3 l12">
                                     <div class="qt-widget">
-                                        <h5 class="qt-caption-small"><span>Recent Posts</span></h5>
-                                        <!-- POST SMALL TITLE ITEM ========================= -->
-                                        <div class="qt-part-archive-item qt-part-archive-item-small-title">
-                                            <div class="qt-item-header">
-                                                <div class="qt-header-top">
-                                                    <ul class="qt-tags">
-                                                        <li><a href="#">Adventure</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="qt-header-mid qt-vc">
-                                                    <div class="qt-vi">
-                                                        <h4 class="qt-title">
-                                                            <a href="#read" class="qt-text-shadow">
-                                                                HERO - THE LIGHT AND MUSIC EXPOSITION HITS LOS ANGELES IN THE FASHION WEEK
-                                                            </a>
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                                <div class="qt-header-bottom">
-                                                    <a href="#read" class="qt-btn qt-btn-primary qt-readmore"><i class="dripicons-media-play"></i></a>
-                                                </div>
-                                                <div class="qt-header-bg" data-bgimage="imagestemplate/medium-690-302.jpg">
-                                                    <img src="imagestemplate/medium-690-302.jpg" alt="Featured image" width="690" height="302">
-                                                </div>
+                                      <h5 class="qt-caption-small"><span>Recent Posts</span></h5>
+                                      <!-- POST SMALL TITLE ITEM ========================= -->
+                                      <div class="qt-part-archive-item qt-part-archive-item-small-title">
+                                        <div class="qt-item-header">
+                                          <div class="qt-header-top">
+                                            <ul class="qt-tags">
+                                              <li><a href="#">Adventure</a></li>
+                                            </ul>
+                                          </div>
+                                          <div class="qt-header-mid qt-vc">
+                                            <div class="qt-vi">
+                                              <h4 class="qt-title">
+                                                <a href="#read" class="qt-text-shadow">
+
+                                                </a>
+                                              </h4>
                                             </div>
-                                        </div>
+                                          </div>
+                                          <div class="qt-header-bottom">
+                                            <a href="#read" class="qt-btn qt-btn-primary qt-readmore"><i class="dripicons-media-play"></i></a>
+                                          </div>
+                                          <div class="qt-header-bg" data-bgimage="imagestemplate/medium-690-302.jpg">
+                                            <img src="imagestemplate/medium-690-302.jpg" alt="Featured image" width="690" height="302">
+                                          </div>
+                                          </div>
+                                         </div>
                                         <!-- POST SMALL TITLE ITEM END ========================= -->
                                     </div>
                                 </div>
                                 <div class="col s12 m3 l12">
                                     <div class="qt-widget">
                                         <h5 class="qt-caption-small">
-                                            <span>Now on air</span>
+                                            <span>ON AIR</span>
                                         </h5>
                                         <div class="qt-widget-onair qt-card aligncenter">
                                             <a href="#post">
-                                                <img src="imagestemplate/thumbnail.jpg" class="qt-featured-image" alt="photo" />
+                                                <img src="imagestemplate/MUSIC_NONSTOP_no ar.jpg" class="qt-featured-image" alt="photo" />
                                             </a>
                                             <h4 class="qt-caption-med">
                                                 <span>Sound circus</span>
@@ -311,125 +397,10 @@ Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia
                         </div>
                     </div>
                 </div>
-                <!-- ======================= RELATED SECTION ======================= -->
-                <div class="qt-content-primary qt-negative qt-related-section qt-vertical-padding-l">
-                    <div class="qt-container">
-                        <h5 class="qt-caption-small"><span>Related events</span></h5>
-                        <div class="qt-related-list">
-                            <!-- EVENT ========================= -->
-                            <div class="qt-part-archive-item qt-item-event qt-negative qt-card-s">
-                                <div class="qt-item-header">
-                                    <div class="qt-header-mid qt-vc">
-                                        <div class="qt-vi">
-                                            <div class="row">
-                                                <div class="col s12 m2">
-                                                    <h4 class="qt-date ">
-                                                        <span class="qt-day">
-                                                            27
-                                                        </span>
-                                                        <span class="qt-month">
-                                                            Jan 2017
-                                                        </span>
-                                                    </h4>
-                                                </div>
-                                                <div class="col s12 m8 qt-titles">
-                                                    <div class="qt-vc">
-                                                        <div class="qt-vi">
-                                                            <h5 class="qt-spacer-xs">Ibiza [Spain]</h5>
-                                                            <h3 class="qt-spacer-xs qt-ellipsis qt-t qt-title">
-                                                                <a href="#" class="qt-text-shadow">Name Of Event</a>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col s12 m2">
-                                                    <a href="" class="qt-btn qt-btn-primary bottom right"><i class="dripicons-plus"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="qt-header-bg" data-bgimage="imagestemplate/squared-690-690.jpg">
-                                        <img src="imagestemplate/medium-690-302.jpg" alt="Featured image" width="690" height="302">
+
                                     </div>
                                 </div>
                             </div>
-                            <!-- EVENT END ========================= -->
-                            <!-- EVENT ========================= -->
-                            <div class="qt-part-archive-item qt-item-event qt-negative qt-card-s">
-                                <div class="qt-item-header">
-                                    <div class="qt-header-mid qt-vc">
-                                        <div class="qt-vi">
-                                            <div class="row">
-                                                <div class="col s12 m2">
-                                                    <h4 class="qt-date ">
-                                                        <span class="qt-day">
-                                                            27
-                                                        </span>
-                                                        <span class="qt-month">
-                                                            Jan 2017
-                                                        </span>
-                                                    </h4>
-                                                </div>
-                                                <div class="col s12 m8 qt-titles">
-                                                    <div class="qt-vc">
-                                                        <div class="qt-vi">
-                                                            <h5 class="qt-spacer-xs">Ibiza [Spain]</h5>
-                                                            <h3 class="qt-spacer-xs qt-ellipsis qt-t qt-title">
-                                                                <a href="#" class="qt-text-shadow">Name Of Event</a>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col s12 m2">
-                                                    <a href="" class="qt-btn qt-btn-primary bottom right"><i class="dripicons-plus"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="qt-header-bg" data-bgimage="imagestemplate/squared-690-690.jpg">
-                                        <img src="imagestemplate/medium-690-302.jpg" alt="Featured image" width="690" height="302">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- EVENT END ========================= -->
-                            <!-- EVENT ========================= -->
-                            <div class="qt-part-archive-item qt-item-event qt-negative qt-card-s">
-                                <div class="qt-item-header">
-                                    <div class="qt-header-mid qt-vc">
-                                        <div class="qt-vi">
-                                            <div class="row">
-                                                <div class="col s12 m2">
-                                                    <h4 class="qt-date ">
-                                                        <span class="qt-day">
-                                                            27
-                                                        </span>
-                                                        <span class="qt-month">
-                                                            Jan 2017
-                                                        </span>
-                                                    </h4>
-                                                </div>
-                                                <div class="col s12 m8 qt-titles">
-                                                    <div class="qt-vc">
-                                                        <div class="qt-vi">
-                                                            <h5 class="qt-spacer-xs">Ibiza [Spain]</h5>
-                                                            <h3 class="qt-spacer-xs qt-ellipsis qt-t qt-title">
-                                                                <a href="#" class="qt-text-shadow">Name Of Event</a>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col s12 m2">
-                                                    <a href="" class="qt-btn qt-btn-primary bottom right"><i class="dripicons-plus"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="qt-header-bg" data-bgimage="imagestemplate/squared-690-690.jpg">
-                                        <img src="imagestemplate/medium-690-302.jpg" alt="Featured image" width="690" height="302">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- EVENT END ========================= -->
                         </div>
                     </div>
                 </div>
@@ -438,7 +409,7 @@ Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia
             <div class="qt-footer qt-footerwidgets">
                 <div class="qt-section qt-footer-widgets qt-content-primary-light">
                     <div class="qt-container">
-                        <h2 class="qt-footer-logo"><a href="./" class="brand-logo qt-logo-text">ONAIR<span>2</span></a></h2>
+                        <h2 class="qt-footer-logo"><a href="./" class="brand-logo qt-logo-text"><span></span></a></h2>
                         <div class="qt-widgets qt-widgets-footer qt-negative qt-spacer-m row">
                             <div class="col s12 m3 l3">
                                 <div class="qt-widget">
@@ -461,7 +432,7 @@ Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia
                                     <h5 class="qt-caption-small"><span>Contacts</span></h5>
                                     <div class="qt-widget-contacts">
                                         <p>
-                                            <i class="qticon-home"></i><a href="http://radio.fantasfm.com/">http://radio.fantasfm.com/</a>
+                                            <i class="qticon-home"></i><a href="http://radio.fantasfm.com">http://radio.fantasfm.com</a>
                                         </p>
                                         <p>
                                             <i class="qticon-at-sign"></i><a href="mailto:geral@fantasfm.com">geral@fantasfm.com</a>
@@ -474,9 +445,9 @@ Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia
                             </div>
                             <div class="col s12 m3 l3">
                                 <div class="qt-widget">
-                                    <h5 class="qt-caption-small"><span>Contacts</span></h5>
+                                    <h5 class="qt-caption-small"><span>Sobre</span></h5>
                                     <div class="qt-widget-about">
-                                        <p>
+                                        <p>A FANTAS FM da-te as músicas que mais gostas
 
                                             <br>
                                             <a href="">Discover more <i class="dripicons-arrow-thin-right"></i></a>
@@ -540,8 +511,8 @@ Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia
                 <div class="qt-playercontainer-content qt-vertical-padding-m">
                     <div class="qt-playercontainer-header">
                         <h5 class="qt-text-shadow small"></h5>
-                        <h3 id="qtradiotitle" class="qt-text-shadow"></h3>
-                        <h4 id="qtradiosubtitle" class="qt-thin qt-text-shadow small"></h4>
+                        <h3 id="qtradiotitle" class="qt-text-shadow">FANTAS FM</h3>
+                        <h4 id="qtradiosubtitle" class="qt-thin qt-text-shadow small">A MÚSICA NO RITMO CERTO</h4>
                     </div>
                     <div class="qt-playercontainer-musicplayer" id="qtmusicplayer">
                         <div class="qt-musicplayer">
@@ -566,20 +537,20 @@ Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia
                 </div>
             </div>
             <!-- this is for xml radio feed -->
-            <div id="qtShoutcastFeedData" class="hidden" data-style="" data-channel="1" data-host="173.192.105.231" data-port="3540"></div>
+            <div id="qtShoutcastFeedData" class="hidden" data-style="" data-channel="1" data-host="" data-port=""></div>
             <!-- PLAYER END ========================= -->
             <!-- CHANNELS LIST ========================= -->
             <div class="qt-part-channels-list">
                 <ul class="qt-content-aside qt-channelslist qt-negative">
                     <li class="qt-channel">
-                        <a href="#!" class="qt-ellipsis" data-title="" data-subtitle="" data-background="imagestemplate/photo-squared-500-500.jpg" data-logo="imagestemplate/radio-logo.png" data-playtrack="http://173.192.105.231:3540/stream.mp3" data-host="173.192.105.231" data-port="3540" data-stats_path="" data-played_path="" data-channel="">
+                        <a href="#!" class="qt-ellipsis" data-title="" data-subtitle="" data-background="imagestemplate/" data-logo="imagestemplate/" data-playtrack="" data-host="" data-port="" data-stats_path="" data-played_path="" data-channel="">
                             <img src="imagestemplate/" alt="logo" class="qt-radiologo dripicons-media-play" width="80" height="80">
-                            <i class="dripicons-media-play"></
+                            <i class="dripicons-media-play"></i>
                         </a>
                     </li>
                     <li class="qt-channel">
-                        <a href="#!" class="qt-ellipsis" data-title="" data-subtitle="The subtitle of radio 2" data-background="imagestemplate/large-1170-512.jpg" data-logo="imagestemplate/radio-logo.png" data-playtrack="http://82.77.137.30:8557/;listen.mp3" data-host="82.77.137.30" data-port="8557" data-stats_path="" data-played_path="" data-channel="">
-                            <img src="imagestemplate/radio-logo.png" alt="logo" class="qt-radiologo" width="80" height="80">
+                        <a href="#!" class="qt-ellipsis" data-title="" data-subtitle="" data-background="imagestemplate/" data-logo="imagestemplate/" data-playtrack="" data-host="" data-port="" data-stats_path="" data-played_path="" data-channel="">
+                            <img src="imagestemplate/" alt="logo" class="qt-radiologo" width="80" height="80">
                             <i class="dripicons-media-play"></i>
                         </a>
                     </li>
@@ -587,8 +558,8 @@ Nota: Para o passatempo, estão habilitados todos os bilhetes comprados até dia
             </div>
             <!-- CHANNELS LIST END ========================= -->
         </div>
-
         <!-- PLAYER SIDEBAR END ========================= -->
+
 
         <!-- QT BODY END ================================ -->
 

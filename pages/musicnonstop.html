@@ -1,106 +1,14 @@
 <!doctype html>
 <html class="no-js" lang="en">
-	
-<!-- head -->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>FANTAS FM -  BEM VINDO AO NOVO SITE DA FANTAS FM!</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <!-- icons -->
-  <link href='fonts/dripicons/webfont.css' rel='stylesheet' type='text/css'>
-  <link href='fonts/qticons/qticons.css' rel='stylesheet' type='text/css'>
-
-  <!-- slick slider -->
-  <link href='components/slick/slick.css' rel='stylesheet' type='text/css'>
-
-  <!-- swipebox -->
-  <link href='components/swipebox/src/css/swipebox.min.css' rel='stylesheet' type='text/css'>
-
-  <!-- countdown component -->
-  <link rel="stylesheet" type="text/css" href="components/countdown/css/jquery.classycountdown.css" />
-
-  <!-- QT 360 PLAYER component -->
-  <link rel="stylesheet" type="text/css" href="components/soundmanager/templates/qtradio-player/css/flashblock.css" />
-  <link rel="stylesheet" type="text/css" href="components/soundmanager/templates/qtradio-player/css/qt-360player-volume.css" />
-
-
-  <!-- Main css file -->
-  <link rel="stylesheet" href="css/qt-main.css"><!-- INCLUDES THE CHOSEN FRAMEWORK VIA #IMPORT AND SASS -->
-
-  <!-- Custom typography settings and google fonts -->
-  <link rel="stylesheet" href="css/qt-typography.css">
-</head>
-<!-- head -->
-
+	  {{template "head"}}
 	<body>
 		<!-- QT HEADER END ================================ -->
 		<div class="qt-parentcontainer">
 
-			
-<!-- menu -->
-<!-- QT MENUBAR TOP ================================ -->
-<!-- QT MENUBAR  ================================ -->
-<nav class="qt-menubar nav-wrapper qt-content-primary ">
- <!-- desktop menu  HIDDEN IN MOBILE AND TABLETS -->
- <ul class="qt-desktopmenu hide-on-xl-and-down">
-   <li class="qt-logo-link"><a href="./" class="brand-logo qt-logo-text">ONAIR<span>2</span></a></li>
-   <li><a href="programacao.html">PROGRAMAÇÃO</a></li>
-   <li><a href="equipa.html">EQUIPA</a></li>
-   <li><a href="WEB9-da-semana.html">WEB 9 DA SEMANA</a></li>
-   <li><a href="archive-events.html">ENVENTOS</a></li>
-   <li><a href="contactos.html">CONTACTOS</a></li>
-   <li class="right"><a href="#!" data-expandable="#qtsearchbar" class="qt-btn qt-btn-l qt-scrolltop"><i class="icon dripicons-search"></i></a></li>
-   <li class="right"><a href="page-popup.html" class="qt-popupwindow" data-name="Music Player" data-width="320" data-height="500"><i class="icon dripicons-duplicate"></i> Popup</a></li>
-   <li class="right"><a href="#!" class="button-playlistswitch" data-activates="channelslist"><i class="icon dripicons-media-play"></i> EMISSÃO</a></li>
- </ul>
- <!-- mobile menu icon and logo VISIBLE ONLY TABLET AND MOBILE-->
- <ul class="qt-desktopmenu hide-on-xl-only ">
-   <li><a href="#" data-activates="qt-mobile-menu" class="button-collapse qt-menu-switch qt-btn qt-btn-primary qt-btn-m"><i class="dripicons-menu"></i></a></li>
-   <li><a href="#!" class="brand-logo qt-logo-text">ONAIR2</a></li>
- </ul>
-</nav>
-<!-- mobile menu -->
-<div id="qt-mobile-menu" class="side-nav qt-content-primary">
- <ul class=" qt-side-nav">
-   <li><a href="index.html">Home</a></li>
-   <li class="menu-item-has-children"><a href="page-schedule.html">prog</a></li>
- </ul>
-</div>
-<!-- mobile toolbar -->
-<ul class="qt-mobile-toolbar qt-content-primary-dark qt-content-aside hide-on-large-only">
- <li><a href="#!" data-expandable="#qtsearchbar" class="qt-scrolltop"><i class="icon dripicons-search"></i></a></li>
- <li><a href="page-popup.html" class="qt-popupwindow" data-name="Music Player" data-width="320" data-height="500"><i class="icon dripicons-duplicate"></i></a></li>
- <li><a href="#!" class="button-playlistswitch" data-activates="channelslist"><i class="icon dripicons-media-play"></i></a></li>
-</ul>
-<!-- menu -->
+			{{template "menu"}}
 
-
-			
-<!-- search -->
-<!-- SEARCH FORM ========================= -->
-<div id="qtsearchbar" class="qt-searchbar qt-content-primary qt-expandable">
-  <div class="qt-expandable-inner">
-    <form method="post" action="#search" class="qt-inline-form">
-      <div class="row qt-nopadding">
-        <div class="col s12 m8 l9">
-          <input placeholder="Search" value="" id="searchtex" type="text" class="validate qt-input-l">
-        </div>
-        <div class="col s12 m3 l2">
-          <input type="button" value="Search" class="qt-btn qt-btn-primary qt-btn-l qt-fullwidth">
-        </div>
-        <div class="col s12 m1 l1">
-          <a href="#!" class="qt-btn qt-btn-l qt-btn-secondary qt-fullwidth aligncenter" data-expandable="#qtsearchbar"><i class="dripicons-cross"></i></a>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-<!-- SEARCH FORM END ========================= -->
-<!-- search -->
-
+			{{template "search"}}
 
 			<div id="maincontent" class="qt-main">
 				<!-- ======================= HEADER SECTION ======================= -->
@@ -110,19 +18,19 @@
 						<ul class="qt-tags">
 							<li>
 								<a href="#">
-									Category name
+
 								</a>
 							</li>
 						</ul>
 						<h1 class="qt-caption qt-spacer-s">
-            AFTERNOON
+            MÚSIC NONSTOP
 						</h1>
 						<h4 class="qt-subtitle">
 
 						</h4>
 					</div>
-					<div class="qt-header-bg" data-bgimage="imagestemplate/AFTERNOON.jpg">
-						<img src="imagestemplate/AFTERNOON.jpg" alt="Featured image" width="690" height="302">
+					<div class="qt-header-bg" data-bgimage="imagestemplate/MUSIC_NONSTOP.jpg">
+						<img src="imagestemplate/MUSIC_NONSTOP.jpg" alt="Featured image" width="690" height="302">
 					</div>
 				</div>
 				<!-- HEADER CAPTION END ========================= -->
@@ -141,14 +49,14 @@
 									<td class="qt-content-primary-light"><i class="dripicons-stopwatch">Fim</i></td>
 								</tr>
 								<tr>
-									<th class="qt-accent">Segunda - Sexta</th>
-									<td>17:00</td>
-									<td>19:00</td>
+									<th class="qt-accent">Quinta - Sexta</th>
+									<td>00:00 - 13:00</td>
+									<td></td>
 								</tr>
 								<tr>
-									<th class="qt-accent"></th>
-									<td></td>
-									<td></td>
+									<th class="qt-accent">Sábado - Domingo</th>
+									<td>01:00</td>
+									<td>12:00</td>
 								</tr>
 								<tr>
 							</table>
@@ -198,16 +106,16 @@
 								<div class="row">
 									<div class="col s12 m6 l6 qt-show-tagline">
 										<h3 class="qt-title">
-                  AFTERNOON
+                    MÚSIC NONSTOP
 										</h3>
 									</div>
 									<div class="col s12 m6 l6">
 										<h5>
-										 <a href="AFTERNOON"#></a> <a href=#></a> <a href=#></a> <a href=#></a
+										 <a href="MÚSIC NONSTOP:"#></a> <a href=#></a> <a href=#></a> <a href=#></a>
 										</h5>
 										<div class="qt-content-readmore">
 											<div class="qt-the-content">
-												<p> Este é o programa que anima o teu fim de tarde.
+												<p> A tua noite começa da melhor maneira!
 												</p>
 												<div id="qtmaincontentexpandable" class="qt-expandable">
 													<div class="qt-expandable-inner">
@@ -229,11 +137,6 @@
 					</div>
 				</div>
 
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			<!-- .qt-main end -->
 			<div class="qt-footer qt-footerwidgets">
 				<div class="qt-section qt-footer-widgets qt-content-primary-light">
@@ -258,7 +161,7 @@
 							</div>
 							<div class="col s12 m3 l3">
 								<div class="qt-widget">
-									<h5 class="qt-caption-small"><span>Sobre</span></h5>
+									<h5 class="qt-caption-small"><span>Contactos</span></h5>
 									<div class="qt-widget-contacts">
 										<p>
 											<i class="qticon-home"></i><a href="http://radio.fantasfm.com/">http://radio.fantasfm.com/</a>
@@ -276,7 +179,7 @@
 								<div class="qt-widget">
 									<h5 class="qt-caption-small"><span>Sobre</span></h5>
 									<div class="qt-widget-about">
-										<p>A FANTAS FM da-te as músicas que mais gostas
+										<p> A FANTAS FM da-te as músicas que mais gostas
 
 											<br>
 											<a href="">Discover more <i class="dripicons-arrow-thin-right"></i></a>
@@ -313,7 +216,7 @@
 					<div class="qt-container">
 						<div class="row">
 							<div class="col s12 m12 l8">
-								FANTAS FM 2019 <a href=""
+								FANTAS FM 2019 <a href="
 								<ul class="qt-menu-footer qt-small qt-list-chevron ">
 
 								</ul>
@@ -346,7 +249,7 @@
 					<div class="qt-playercontainer-musicplayer" id="qtmusicplayer">
 						<div class="qt-musicplayer">
 							<div class="ui360 ui360-vis qt-ui360">
-								<a id="playerlink" href="http://176.9.43.216:8178/index.html.mp3"></a>
+								<a id="playerlink" href="http://176.9.43.216:8178/index.html"></a>
 							</div>
 						</div>
 					</div>
@@ -362,13 +265,28 @@
 					</div>
 				</div>
 				<div id="playerimage" class="qt-header-bg" data-bgimage="imagestemplate/image.jpg">
-					<img src="imagestemplate/image.jpg" alt="Featured image" width="690" height="302">
+					<img src="imagestemplate/imagejpg" alt="Featured image" width="690" height="302">
 				</div>
 			</div>
 			<!-- this is for xml radio feed -->
+			<div id="qtShoutcastFeedData" class="hidden" data-style="" data-channel="1" data-host="" data-port=""></div>
 			<!-- PLAYER END ========================= -->
 			<!-- CHANNELS LIST ========================= -->
-
+			<div class="qt-part-channels-list">
+				<ul class="qt-content-aside qt-channelslist qt-negative">
+					<li class="qt-channel">
+						<a href="#!" class="qt-ellipsis" data-title="" data-subtitle="" data-background="imagestemplate/" data-logo="imagestemplate/" data-playtrack="" data-host="" data-port="" data-stats_path="" data-played_path="" data-channel="">
+							<img src="imagestemplate/="logo" class="qt-radiologo dripicons-media-play" width="80" height="80">
+							<i class="dripicons-media-play"></i>
+						</a>
+					</li>
+					<li class="qt-channel">
+						<a href="#!" class="qt-ellipsis" data-title="" data-subtitle="" data-background="imagestemplate/" data-logo="imagestemplate/" data-playtrack="" data-host="" data-port="" data-stats_path="" data-played_path="" data-channel="">
+							<img src="imagestemplate/""logo" class="qt-radiologo" width="80" height="80">
+							<i class="dripicons-media-play"></i>
+						</a>
+					</li>
+				</ul>
 			</div>
 			<!-- CHANNELS LIST END ========================= -->
 		</div>
