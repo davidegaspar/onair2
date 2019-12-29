@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{{template "head"}}
+
+    <body>
+    <!-- QT HEADER END ================================ -->
+    <div class="qt-parentcontainer">
+      {{template "menu"}}
+
+      {{template "search"}}
+
+      <div id="maincontent" class="qt-main">
+		<!-- PLAYER ========================= -->
+		<div id="qtplayercontainer" data-playervolume="true" data-accentcolor="#dd0e34" data-accentcolordark="#ff0442" data-textcolor="#ffffff" data-soundmanagerurl="./components/soundmanager/swf/" class="qt-playercontainer qt-playervolume qt-clearfix qt-content-primary">
+			<div class="qt-playercontainer-content qt-vertical-padding-m">
+				<div class="qt-playercontainer-header">
+					<h5 class="qt-text-shadow small">FANTAS FM</h5>
+					<h3 id="qtradiotitle" class="qt-text-shadow">A MÚSICA NO RITMO CERTO</h3>
+					<h4 id="qtradiosubtitle" class="qt-thin qt-text-shadow small"></h4>
+				</div>
+				<div class="qt-playercontainer-musicplayer" id="qtmusicplayer">
+					<div class="qt-musicplayer">
+						<div class="ui360 ui360-vis qt-ui360">
+							<a id="playerlink" href="http://176.9.43.216:8178/index.html.mp3"></a>
+						</div>
+					</div>
+				</div>
+				<div class="qt-playercontainer-data qt-container qt-text-shadow small">
+					<h6 class="qt-inline-textdeco">
+						<span>Current track</span>
+					</h6>
+					<div class="qt-t qt-current-track">
+						<h6 class="qt-small" id="qtFeedPlayerAuthor">ARTIST</h6>
+					</div>
+					<hr class="qt-inline-textdeco">
+				</div>
+			</div>
+			<div id="playerimage" class="qt-header-bg" data-bgimage="imagestemplate/image.jpg">
+				<img src="imagestemplate/image.jpg"alt="Featured image" width="690" height="302">
+			</div>
+		</div>
+		<!-- this is for xml radio feed -->
+
+    <!-- PLAYER END ========================= -->
+    <!-- CHANNELS LIST ========================= -->
+
+          </a>
+        </li>
+				</a>
+				</li>
+			</ul>
+		</div>
+		<!-- CHANNELS LIST END ========================= -->
+
+        </div>
+        <!-- QT BODY END ================================ -->
+
+        <!-- QT FOOTER SCRIPTS ================================ -->
+        <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/jquery.js"></script><!--  JQUERY VERSION MUST MATCH WORDPRESS ACTUAL VERSION (NOW 1.12) -->
+        <script src="js/jquery-migrate.min.js"></script><!--  JQUERY VERSION MUST MATCH WORDPRESS ACTUAL VERSION (NOW 1.12) -->
+
+        <!-- Framework -->
+        <script src="js/materializecss/bin/materialize.min.js"></script>
+
+        <!-- Cookies for player -->
+        <script src="js/jquerycookie.js"></script>
+
+         <!-- Slick carousel and skrollr -->
+        <script src="components/slick/slick.min.js"></script>
+        <script src="components/skrollr/skrollr.min.js"></script>
+
+        <!-- Swipebox -->
+        <script src="components/swipebox/lib/ios-orientationchange-fix.js"></script>
+        <script src="components/swipebox/src/js/jquery.swipebox.min.js"></script>
+
+        <!-- Countdown -->
+        <script src="components/countdown/js/jquery.knob.js"></script>
+        <script src="components/countdown/js/jquery.throttle.js"></script>
+        <script src="components/countdown/js/jquery.classycountdown.min.js"></script>
+
+        <!-- Soundmanager2 -->
+        <!--[if IE]><script src="components/soundmanager/script/excanvas.js"></script><![endif]-->
+        <script src="components/soundmanager/script/berniecode-animator.js"></script>
+        <script src="components/soundmanager/script/soundmanager2-nodebug.js"></script>
+        <script src="components/soundmanager/script/shoutcast.js"></script>
+        <script src="components/soundmanager/templates/qtradio-player/script/qt-360player-volumecontroller.js"></script>
+
+        <!-- Popup -->
+        <script src="components/popup/popup.js"></script>
+
+        <!-- Centova -->
+     	 <script src="js/centova/config.js"></script>
+     	 <script src="js/centova/data.js"></script>
+     	 <script src="js/centova/get.js"></script>
+
+
+        <!-- MAIN JAVASCRIPT FILE ================================ -->
+        <script src="js/qt-main.js"></script>
+
+    </body>
+</html>
