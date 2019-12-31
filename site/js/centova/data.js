@@ -117,12 +117,12 @@ window.centova.data = {
 
   },
   "2413": {
-    "title": "PILOTO AUTOMATICO",
+    "title": "DJ SET",
     "link": "pilotoautomatico.html",
-    "host": "Com Joana Gama",
-    "from": "01:00",
-    "to": "11:00",
-    "img": "imagestemplate/aaaaabbbb.jpg"
+    "host": "Com DJ RIZO e DJ Joana Perez",
+    "from": "00:00",
+    "to": "01:00",
+    "img": "imagestemplate/maxresdefault - cópia.jpg"
 
 
   },
