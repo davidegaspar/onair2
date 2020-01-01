@@ -57,47 +57,12 @@
         <!-- QT BODY END ================================ -->
 
         <!-- QT FOOTER SCRIPTS ================================ -->
-        <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script src="js/jquery.js"></script><!--  JQUERY VERSION MUST MATCH WORDPRESS ACTUAL VERSION (NOW 1.12) -->
-        <script src="js/jquery-migrate.min.js"></script><!--  JQUERY VERSION MUST MATCH WORDPRESS ACTUAL VERSION (NOW 1.12) -->
+      	{{template "footer"}}
 
-        <!-- Framework -->
-        <script src="js/materializecss/bin/materialize.min.js"></script>
+        </div>
+        
+        {{template "player"}}
 
-        <!-- Cookies for player -->
-        <script src="js/jquerycookie.js"></script>
-
-         <!-- Slick carousel and skrollr -->
-        <script src="components/slick/slick.min.js"></script>
-        <script src="components/skrollr/skrollr.min.js"></script>
-
-        <!-- Swipebox -->
-        <script src="components/swipebox/lib/ios-orientationchange-fix.js"></script>
-        <script src="components/swipebox/src/js/jquery.swipebox.min.js"></script>
-
-        <!-- Countdown -->
-        <script src="components/countdown/js/jquery.knob.js"></script>
-        <script src="components/countdown/js/jquery.throttle.js"></script>
-        <script src="components/countdown/js/jquery.classycountdown.min.js"></script>
-
-        <!-- Soundmanager2 -->
-        <!--[if IE]><script src="components/soundmanager/script/excanvas.js"></script><![endif]-->
-        <script src="components/soundmanager/script/berniecode-animator.js"></script>
-        <script src="components/soundmanager/script/soundmanager2-nodebug.js"></script>
-        <script src="components/soundmanager/script/shoutcast.js"></script>
-        <script src="components/soundmanager/templates/qtradio-player/script/qt-360player-volumecontroller.js"></script>
-
-        <!-- Popup -->
-        <script src="components/popup/popup.js"></script>
-
-        <!-- Centova -->
-     	 <script src="js/centova/config.js"></script>
-     	 <script src="js/centova/data.js"></script>
-     	 <script src="js/centova/get.js"></script>
-
-
-        <!-- MAIN JAVASCRIPT FILE ================================ -->
-        <script src="js/qt-main.js"></script>
-
+        {{template "scripts"}}
     </body>
 </html>
