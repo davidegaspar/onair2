@@ -118,7 +118,7 @@ window.centova.data = {
   },
   "2413": {
     "title": "DJ SET",
-    "link": "pilotoautomatico.html",
+    "link": "",
     "host": "Com DJ RIZO e DJ Joana Perez",
     "from": "00:00",
     "to": "01:00",
