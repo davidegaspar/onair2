@@ -11,9 +11,9 @@ window.centova.data = {
     "title": "MEIA HORA SEM PAUSAS",
     "link": "meiahora-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "13:00",
+    "from": "14:00",
     "to": "15:00",
-    "img": "imagestemplate/.jpg"
+    "img": "imagestemplate/MEIAHORASEMPAUSAS.jpg"
   },
   "2401": {
     "title": "OUT NIGHT",
@@ -48,12 +48,12 @@ window.centova.data = {
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
-    "title": "AFTERNOON",
+    "title": "AFTER SCHOOL",
     "link": "afternoon.html",
     "host": "Com Daniel Gaspar",
     "from": "17:00",
     "to": "19:00",
-    "img": "imagestemplate/AFTERNOON.jpg"
+    "img": "imagestemplate/AFTERSCHOOL.jpg"
   },
   "2412": {
     "title": "Davide Gaspar",
@@ -83,7 +83,7 @@ window.centova.data = {
     "title": "RANDOM",
     "link": "random.html",
     "host": "Com FANTAS FM",
-    "from": "14:00",
+    "from": "15:00",
     "to": "16:00",
     "img": "imagestemplate/tytuyuyfgfgfg.jpg"
 
