@@ -49,9 +49,9 @@ window.centova.data = {
   },
   "2407": {
     "title": "AFTER SCHOOL",
-    "link": "afternoon.html",
+    "link": "afterschool",
     "host": "Com Daniel Gaspar",
-    "from": "17:00",
+    "from": "16:00",
     "to": "19:00",
     "img": "imagestemplate/AFTERSCHOOL.jpg"
   },
@@ -59,8 +59,8 @@ window.centova.data = {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "1300",
-    "to": "16:00",
+    "from": "2200",
+    "to": "00:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
