@@ -1,6 +1,6 @@
 window.centova.data = {
   "2397": {
-    "title": "MUSIC NONSTOP",
+    "title": "MUSIC NONSTOP Com FANTAS FM",
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
     "from": "00:00",
@@ -89,7 +89,7 @@ window.centova.data = {
 
   },
   "2399": {
-    "title": "WEB 9",
+    "title": "WEB 9 Com Davide Gaspar",
     "link": "web9dasemana.html",
     "host": "Com Davide Gaspar",
     "from": "20:00",
