@@ -1,10 +1,10 @@
 window.centova.data = {
   "2397": {
-    "title": "MUSIC NONSTOP Com FANTAS FM",
+    "title": "MUSIC NONSTOP",
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
     "from": "00:00",
-    "to": "13:00",
+    "to": "14:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -51,7 +51,7 @@ window.centova.data = {
     "title": "AFTER SCHOOL",
     "link": "afterschool",
     "host": "Com Daniel Gaspar",
-    "from": "16:00",
+    "from": "17:00",
     "to": "19:00",
     "img": "imagestemplate/AFTERSCHOOL.jpg"
   },
@@ -89,11 +89,11 @@ window.centova.data = {
 
   },
   "2399": {
-    "title": "WEB 9 Com Davide Gaspar",
+    "title": " 4 ÀS 4",
     "link": "web9dasemana.html",
-    "host": "Com Davide Gaspar",
-    "from": "20:00",
-    "to": "21:00",
+    "host": "Com Daniel Gaspar",
+    "from": "16:00",
+    "to": "17:00",
     "img": "imagestemplate/web9.jpg"
 
   },
@@ -110,8 +110,8 @@ window.centova.data = {
     "title": "HIP HOP MÚSIC",
     "link": "hip-hop-music.html",
     "host": "Com Sara Correia",
-    "from": "12:00",
-    "to": "14:00",
+    "from": "22:00",
+    "to": "00:00",
     "img": "imagestemplate/30c1bf283a3730cf16e9e537c3525643.jpg"
 
 
