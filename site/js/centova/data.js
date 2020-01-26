@@ -117,12 +117,12 @@ window.centova.data = {
 
   },
   "2413": {
-    "title": "DJ SET",
-    "link": "",
-    "host": "Com DJ RIZO e DJ Joana Perez",
-    "from": "00:00",
-    "to": "01:00",
-    "img": "imagestemplate/djstet.jpg"
+    "title": "EMISSÃO ESPECIAL ED SHEERAN",
+    "link": "emissao-especial.html",
+    "host": "Com FANTAS FM",
+    "from": "12:00",
+    "to": "13:00",
+    "img": "imagestemplate/ed-sheeran.jpg"
 
 
   },
@@ -141,5 +141,24 @@ window.centova.data = {
   "from": "16:00",
   "to": "20:00",
   "img": "imagestemplate/.jpg"
+
+},
+"2413": {
+  "title": "EMISSÃO ESPECIAL ARIANA GRANDE",
+  "link": "emissao-especial.html",
+  "host": "Com FANTAS FM",
+  "from": "13:00",
+  "to": "14:00",
+  "img": "imagestemplate/img_797x448$2014_12_26_12_42_58_102273.jpg"
+
+},
+"2413": {
+  "title": "EMISSÃO ESPECIAL SHAWN MENDES",
+  "link": "emissao-especial.html",
+  "host": "Com FANTAS FM",
+  "from": "14:00",
+  "to": "15:00",
+  "img": "imagestemplate/mw-860.jpg"
+
 }
  }
