@@ -101,8 +101,8 @@ window.centova.data = {
     "title": "2H SEM PAUSAS",
     "link": "2h-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "14:00",
-    "to": "16:00",
+    "from": "15:00",
+    "to": "20:00",
     "img": "imagestemplate/fantasfm_logo_3.jpg"
 
   },
