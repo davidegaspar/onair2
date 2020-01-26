@@ -11,8 +11,8 @@ window.centova.data = {
     "title": "MEIA HORA SEM PAUSAS",
     "link": "meiahora-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "14:00",
-    "to": "15:00",
+    "from": "19:00",
+    "to": "00:00",
     "img": "imagestemplate/MEIAHORASEMPAUSAS.jpg"
   },
   "2401": {
@@ -43,13 +43,13 @@ window.centova.data = {
     "title": "Nuno Reis",
     "link": "nunoreis.html",
     "host": "",
-    "from": "12:00",
-    "to": "14:00",
+    "from": "14:00",
+    "to": "15:00",
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
     "title": "AFTER SCHOOL",
-    "link": "afterschool",
+    "link": "after-school.html",
     "host": "Com Daniel Gaspar",
     "from": "17:00",
     "to": "19:00",
