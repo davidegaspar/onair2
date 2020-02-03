@@ -4,15 +4,15 @@ window.centova.data = {
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
     "from": "00:00",
-    "to": "14:00",
+    "to": "15:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
     "title": "MEIA HORA SEM PAUSAS",
     "link": "meiahora-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "16:00",
-    "to": "21:00",
+    "from": "19:00",
+    "to": "22:00",
     "img": "imagestemplate/MEIAHORASEMPAUSAS.jpg"
   },
   "2401": {
@@ -48,7 +48,7 @@ window.centova.data = {
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
-    "title": "MÚSIC NONSTOP",
+    "title": "AFTER SCHOOL",
     "link": "musicnonstop.html",
     "host": "Com FANTAS FM",
     "from": "13:00",
@@ -117,12 +117,12 @@ window.centova.data = {
 
   },
   "2413": {
-    "title": "EMISSÃO ESPECIAL ED SHEERAN",
-    "link": "emissao-especial.html",
+    "title": "MUSIC NONSTOP",
+    "link": "musicnonstop.html",
     "host": "Com FANTAS FM",
-    "from": "12:00",
-    "to": "13:00",
-    "img": "imagestemplate/ed-sheeran.jpg"
+    "from": "00:00",
+    "to": "15:00",
+    "img": "imagestemplate/MUSIC_NONSTOP.jpg"
 
   },
   "2409": {
