@@ -18,7 +18,7 @@ window.centova.data = {
   "2401": {
     "title": "OUT NIGHT",
     "link": "out-night.html",
-    "host": "Com Davide Gaspar e Sara Correia",
+    "host": "Com Sara Correia",
     "from": "19:00",
     "to": "22:00",
     "img": "imagestemplate/outnight.jpg"
@@ -101,8 +101,8 @@ window.centova.data = {
     "title": "2H SEM PAUSAS",
     "link": "2h-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "14:00",
-    "to": "16:00",
+    "from": "22:00",
+    "to": "00:00",
     "img": "imagestemplate/fantasfm_logo_3.jpg"
 
   },
