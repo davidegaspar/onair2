@@ -4,7 +4,7 @@ window.centova.data = {
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
     "from": "00:00",
-    "to": "15:00",
+    "to": "11:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -32,11 +32,11 @@ window.centova.data = {
     "img": "imagestemplate/luch time.jpg"
   },
   "2403": {
-    "title": "Sara Correia",
+    "title": "1H SEM PAUSAS",
     "link": "sara-correia.html",
-    "host": "",
-    "from": "12.00",
-    "to": "14:00",
+    "host": "Com Sara Correia",
+    "from": "21.00",
+    "to": "22:00",
     "img": "imagestemplate/saracorreia.jpg"
   },
   "2404": {
@@ -49,11 +49,11 @@ window.centova.data = {
   },
   "2407": {
     "title": "AFTER SCHOOL",
-    "link": "musicnonstop.html",
-    "host": "Com FANTAS FM",
-    "from": "13:00",
-    "to": "00:00",
-    "img": "imagestemplate/MUSIC_NONSTOP.jpg"
+    "link": "after-school.html",
+    "host": "Com Daniel Gaspar",
+    "from": "17:00",
+    "to": "19:00",
+    "img": "imagestemplate/after-school.html.jpg"
   },
   "2412": {
     "title": "Davide Gaspar",
@@ -66,9 +66,9 @@ window.centova.data = {
   "2402": {
     "title": "Daniel Gaspar",
     "link": "daniel-gaspar.html",
-    "host": "COM Daniel Gaspar",
-    "from": "21:00",
-    "to": "00:00",
+    "host": "",
+    "from": "19:00",
+    "to": "21:00",
     "img": "imagestemplate/IMG_0129.jpg"
   },
   "2415": {
