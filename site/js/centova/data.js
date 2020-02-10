@@ -140,6 +140,14 @@ window.centova.data = {
   "from": "16:00",
   "to": "20:00",
   "img": "imagestemplate/.jpg"
+},
+"2410": {
+"title": "DESPERTAR",
+"link": "daniel-gaspar.html",
+"host": "Com Daniel Gaspar",
+"from": "11:00",
+"to": "13:00",
+"img": "imagestemplate/aaaabbbbb.jpg"
 
-}
- }
+},
+  },
