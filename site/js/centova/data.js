@@ -53,7 +53,7 @@ window.centova.data = {
     "host": "Com Daniel Gaspar",
     "from": "17:00",
     "to": "19:00",
-    "img": "imagestemplate/after-school.html.jpg"
+    "img": "imagestemplate/AFTERSCHOOL.jpg"
   },
   "2412": {
     "title": "Davide Gaspar",
@@ -149,5 +149,5 @@ window.centova.data = {
 "to": "13:00",
 "img": "imagestemplate/aaaabbbbb.jpg"
 
-},
-  },
+}
+  }
