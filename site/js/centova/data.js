@@ -80,12 +80,12 @@ window.centova.data = {
     "img": "imagestemplate/HOUSEPARTYRADIOSHOW.jpg"
   },
 "2416": {
-    "title": "RANDOM",
-    "link": "random.html",
+    "title": "MÚSIC NONSTOP",
+    "link": "musicnonstop.html",
     "host": "Com FANTAS FM",
-    "from": "15:00",
-    "to": "16:00",
-    "img": "imagestemplate/tytuyuyfgfgfg.jpg"
+    "from": "00:00",
+    "to": "14:00",
+    "img": "imagestemplate/MUSIC_NONSTOP.jpg"
 
   },
   "2399": {
