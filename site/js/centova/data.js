@@ -3,16 +3,16 @@ window.centova.data = {
     "title": "MUSIC NONSTOP",
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
-    "from": "23:00",
-    "to": "13:00",
+    "from": "01:00",
+    "to": "14:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
     "title": "MEIA HORA SEM PAUSAS",
     "link": "meiahora-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "19:00",
-    "to": "22:00",
+    "from": "14:00",
+    "to": "15:00",
     "img": "imagestemplate/MEIAHORASEMPAUSAS.jpg"
   },
   "2401": {
@@ -43,8 +43,8 @@ window.centova.data = {
     "title": "Nuno Reis",
     "link": "nunoreis.html",
     "host": "",
-    "from": "14:00",
-    "to": "15:00",
+    "from": "21:00",
+    "to": "22:00",
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
@@ -59,8 +59,8 @@ window.centova.data = {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "2200",
-    "to": "00:00",
+    "from": "16:00",
+    "to": "21:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
   "2402": {
@@ -101,8 +101,8 @@ window.centova.data = {
     "title": "2H SEM PAUSAS",
     "link": "2h-sem-pausas.html",
     "host": "Com FANTAS FM",
-    "from": "22:00",
-    "to": "00:00",
+    "from": "14:00",
+    "to": "16:00",
     "img": "imagestemplate/fantasfm_logo_3.jpg"
 
   },
