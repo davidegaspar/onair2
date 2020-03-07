@@ -50,7 +50,7 @@
     } else {
       //onair
       try {
-        document.getElementById('centova-onair').innerText = 'ON AIR'
+        document.getElementById('centova-onair').innerText = 'AGORA NO AR'
         document.getElementById('centova-title').innerText = centova.data[state.playlist].title
         document.getElementById('centova-link').href = centova.data[state.playlist].link
         document.getElementById('centova-host').innerText = centova.data[state.playlist].host
