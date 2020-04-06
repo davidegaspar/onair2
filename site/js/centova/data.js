@@ -29,7 +29,7 @@ window.centova.data = {
     "host": "Com Davide Gaspar",
     "from": "13:00",
     "to": "15:00",
-    "img": "imagestemplate/luch time.jpg"
+    "img": "imagestemplate/luch_time.jpg"
   },
   "2403": {
     "title": "1H SEM PAUSAS",
