@@ -149,5 +149,14 @@ window.centova.data = {
 "to": "13:00",
 "img": "imagestemplate/aaaabbbbb.jpg"
 
+},
+"3399": {
+"title": "FRECH MÚSIC",
+"link": "frechmusic.html",
+"host": "Com Daniel Gaspar",
+"from": "11:00",
+"to": "13:00",
+"img": "imagestemplate/fhhghgfhfh.jpg"
+
 }
   }
