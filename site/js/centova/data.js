@@ -156,6 +156,5 @@ window.centova.data = {
   "from": "16:00",
   "to": "21:00",
   "img": "imagestemplate/MUSIC_NONSTOP.jpg"
-
-  }
-    }
+}
+ }
