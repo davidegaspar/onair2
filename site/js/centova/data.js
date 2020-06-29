@@ -133,12 +133,12 @@ window.centova.data = {
     "to": "01:00",
     "img": "imagestemplate/feelthemusic.jpg"
   },
-"2946": {
-  "title": "AS 50 DA FANTAS FM",
-  "link": "daniel-gaspar.html",
+"2417": {
+  "title": "FANTAS SUMMER",
+  "link": "2417",
   "host": "Com Daniel Gaspar",
-  "from": "16:00",
-  "to": "20:00",
+  "from": "17:00",
+  "to": "19:00",
   "img": "imagestemplate/.jpg"
 },
 "2410": {
