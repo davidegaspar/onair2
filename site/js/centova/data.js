@@ -3,8 +3,8 @@ window.centova.data = {
     "title": "MUSIC NONSTOP",
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
-    "from": "23:00",
-    "to": "13:00",
+    "from": "00:00",
+    "to": "15:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -43,8 +43,8 @@ window.centova.data = {
     "title": "Nuno Reis",
     "link": "nunoreis.html",
     "host": "",
-    "from": "21:00",
-    "to": "22:00",
+    "from": "17:00",
+    "to": "19:00",
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
@@ -120,8 +120,8 @@ window.centova.data = {
     "title": "PILOTO AUTOMÁTICO",
     "link": "pilotoautomatico.html",
     "host": "Com FANTAS FM",
-    "from": "16:00",
-    "to": "19:00",
+    "from": "23:00",
+    "to": "00:00",
     "img": "imagestemplate/PILOTOAUTOMATICO.jpg"
 
   },
