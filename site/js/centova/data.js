@@ -43,8 +43,8 @@ window.centova.data = {
     "title": "Nuno Reis",
     "link": "nunoreis.html",
     "host": "",
-    "from": "17:00",
-    "to": "19:00",
+    "from": "21:00",
+    "to": "22:00",
     "img": "imagestemplate/nunoreis.jpg"
   },
   "2407": {
@@ -59,7 +59,7 @@ window.centova.data = {
     "title": "Davide Gaspar",
     "link": "davide-gaspar.html",
     "host": "...",
-    "from": "19:00",
+    "from": "16:00",
     "to": "21:00",
     "img": "imagestemplate/davidegaspar.jpg"
   },
@@ -67,8 +67,8 @@ window.centova.data = {
     "title": "Daniel Gaspar",
     "link": "daniel-gaspar.html",
     "host": "",
-    "from": "19:00",
-    "to": "21:00",
+    "from": "22:00",
+    "to": "00:00",
     "img": "imagestemplate/IMG_0129.jpg"
   },
   "2415": {
