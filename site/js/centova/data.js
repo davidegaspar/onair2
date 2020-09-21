@@ -16,12 +16,12 @@ window.centova.data = {
     "img": "imagestemplate/MEIAHORASEMPAUSAS.jpg"
   },
   "2401": {
-    "title": "OUT NIGHT",
-    "link": "out-night.html",
+    "title": "NIGHT SHOW",
+    "link": "night-show.html",
     "host": "Com Sara Correia",
     "from": "19:00",
     "to": "22:00",
-    "img": "imagestemplate/outnight.jpg"
+    "img": "imagestemplate/fghghgjhjj.jpg"
   },
   "2396": {
     "title": "LUCH TIME",
