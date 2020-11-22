@@ -4,7 +4,7 @@ window.centova.data = {
     "link": "musicnonstop.html",
     "host": "COM FANTASFM",
     "from": "00:00",
-    "to": "08:00",
+    "to": "13:00",
     "img": "imagestemplate/MUSIC_NONSTOP.jpg"
   },
   "2398": {
@@ -120,8 +120,8 @@ window.centova.data = {
     "title": "PILOTO AUTOMÁTICO",
     "link": "pilotoautomatico.html",
     "host": "Com FANTAS FM",
-    "from": "23:00",
-    "to": "00:00",
+    "from": "16:00",
+    "to": "19:00",
     "img": "imagestemplate/PILOTOAUTOMATICO.jpg"
 
   },
@@ -148,5 +148,12 @@ window.centova.data = {
 "from": "11:00",
 "to": "13:00",
 "img": "imagestemplate/aaaabbbbb.jpg"
-}
+},
+"2410": {
+"title": "DESPERTAR",
+"link": "daniel-gaspar.html",
+"host": "Com Daniel Gaspar",
+"from": "11:00",
+"to": "13:00",
+"img": "imagestemplate/aaaabbbbb.jpg"
  };
