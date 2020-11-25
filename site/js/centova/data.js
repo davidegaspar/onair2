@@ -156,4 +156,5 @@ window.centova.data = {
 "from": "11:00",
 "to": "13:00",
 "img": "imagestemplate/aaaabbbbb.jpg"
+},
  };
