@@ -148,6 +148,7 @@ window.centova.data = {
 "from": "11:00",
 "to": "13:00",
 "img": "imagestemplate/aaaabbbbb.jpg"
+
 },
 "3832": {
 "title": "A HORA DO K-POP",
@@ -156,5 +157,5 @@ window.centova.data = {
 "from": "19:00",
 "to": "21:00",
 "img": "imagestemplate/.jpg"
-},
+
  };
