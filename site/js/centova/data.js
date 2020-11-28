@@ -149,12 +149,12 @@ window.centova.data = {
 "to": "13:00",
 "img": "imagestemplate/aaaabbbbb.jpg"
 },
-"2410": {
-"title": "DESPERTAR",
-"link": "daniel-gaspar.html",
-"host": "Com Daniel Gaspar",
-"from": "11:00",
-"to": "13:00",
-"img": "imagestemplate/aaaabbbbb.jpg"
+"3832": {
+"title": "A HORA DO K-POP",
+"link": "a-hora-do-k-pop.html",
+"host": "",
+"from": "19:00",
+"to": "21:00",
+"img": "imagestemplate/.jpg"
 },
  };
