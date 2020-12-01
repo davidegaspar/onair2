@@ -4,7 +4,7 @@ window.centova.data = {
     link: "musicnonstop.html",
     host: "COM FANTASFM",
     from: "00:00",
-    to: "13:00",
+    to: "14:00",
     img: "imagestemplate/MUSIC_NONSTOP.jpg",
   },
   2398: {
@@ -115,8 +115,8 @@ window.centova.data = {
     title: "PILOTO AUTOMÁTICO",
     link: "pilotoautomatico.html",
     host: "Com FANTAS FM",
-    from: "16:00",
-    to: "19:00",
+    from: "14:00",
+    to: "15:00",
     img: "imagestemplate/PILOTOAUTOMATICO.jpg",
   },
   2409: {
