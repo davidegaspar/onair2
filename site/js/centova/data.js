@@ -43,7 +43,7 @@ window.centova.data = {
     title: "Nuno Reis",
     link: "nunoreis.html",
     host: "",
-    from: "21:00",
+    from: "19:00",
     to: "22:00",
     img: "imagestemplate/nunoreis.jpg",
   },
