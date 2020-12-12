@@ -144,7 +144,7 @@ window.centova.data = {
     img: "imagestemplate/aaaabbbbb.jpg",
   },
   3832: {
-    title: "A HORA DO K-POP",
+    title: "A HORA DO K - POP",
     link: "a-hora-do-k-pop.html",
     host: "com FANTAS FM",
     from: "19:00",
