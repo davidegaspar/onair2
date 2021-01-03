@@ -150,22 +150,6 @@ window.centova.data = {
     from: "19:00",
     to: "21:00",
     img: "imagestemplate/.jpg",
-  },
-  3863: {
-    title: "EMISSAO ESPECIAL",
-    link: "emissao-especial.html",
-    host: "com FANTAS FM",
-    from: "10:00",
-    to: "16:00",
-    img: "imagestemplate/fantasfm_logo_3.jpg",
-    },
-  3865: {
-    title: "AS 50 DA FANTAS FM",
-    link: "emissao-especial.html",
-    host: "com Daniel Gaspar",
-    from: "20:00",
-    to: "00:00",
-    img: "imagestemplate/jpg",
-
+        
   },
 };
