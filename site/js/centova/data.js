@@ -4,7 +4,7 @@ window.centova.data = {
     link: "musicnonstop.html",
     host: "COM FANTASFM",
     from: "00:00",
-    to: "14:00",
+    to: "08:00",
     img: "imagestemplate/MUSIC_NONSTOP.jpg",
   },
   2398: {
@@ -43,8 +43,8 @@ window.centova.data = {
     title: "Nuno Reis",
     link: "nunoreis.html",
     host: "",
-    from: "19:00",
-    to: "22:00",
+    from: "08:00",
+    to: "11:00",
     img: "imagestemplate/nunoreis.jpg",
   },
   2407: {
@@ -99,8 +99,8 @@ window.centova.data = {
     title: "2H SEM PAUSAS",
     link: "2h-sem-pausas.html",
     host: "Com FANTAS FM",
-    from: "14:00",
-    to: "16:00",
+    from: "19:00",
+    to: "21:00",
     img: "imagestemplate/fantasfm_logo_3.jpg",
   },
   2406: {
@@ -115,8 +115,8 @@ window.centova.data = {
     title: "PILOTO AUTOMÁTICO",
     link: "pilotoautomatico.html",
     host: "Com FANTAS FM",
-    from: "14:00",
-    to: "15:00",
+    from: "16:00",
+    to: "19:00",
     img: "imagestemplate/PILOTOAUTOMATICO.jpg",
   },
   2409: {
@@ -156,7 +156,7 @@ window.centova.data = {
     link: "musicnonstop.html",
     host: "com FANTAS FM",
     from: "00:00",
-    to: "14:00",
+    to: "08:00",
     img: "imagestemplate/MUSIC_NONSTOP.jpg",
   },
 };
