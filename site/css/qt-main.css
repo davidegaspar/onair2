@@ -3297,3 +3297,11 @@ a.qt-link-layer { background-color: #ff0442 !important; }
   /* Borders */
   .qt-tags a:hover { border-color: #58a4b0; color: #58a4b0; } }
 /*# sourceMappingURL=qt-main.css.map */
+
+/* player override */
+#qtFeedPlayerTrack {
+  font-size: 24px;
+}
+#qtFeedPlayerAuthor {
+  font-size: 18px;
+}
