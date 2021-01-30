@@ -40,7 +40,7 @@
     console.log(state);
 
     if (!state.playlist) {
-      //onair
+      //centova
       try {
         document.getElementById("centova-onair").innerText = "OFFLINE";
         document.getElementById("centova-title").innerText = "";
@@ -49,11 +49,12 @@
         document.getElementById("centova-from").innerText = "";
         document.getElementById("centova-to").innerText = "";
         document.getElementById("centova-img").style.backgroundImage = "";
+        console.log("WARN: centova found - offline");
       } catch (e) {
-        console.log("WARN: onair not found");
+        console.log("WARN: centova not found");
       }
     } else {
-      //onair
+      //centova
       try {
         document.getElementById("centova-onair").innerText = "AGORA NO AR";
         document.getElementById("centova-title").innerText =
@@ -68,8 +69,9 @@
           centova.data[state.playlist].to;
         document.getElementById("centova-img").style.backgroundImage =
           "url(" + centova.data[state.playlist].img + ")";
+        console.log("WARN: centova found - online");
       } catch (e) {
-        console.log("WARN: onair not found");
+        console.log("WARN: centova not found");
       }
 
       // player
@@ -78,8 +80,9 @@
           centova.data[state.playlist].title;
         document.getElementById("qtFeedPlayerTrack").innerText = state.track;
         document.getElementById("qtFeedPlayerAuthor").innerText = state.author;
+        console.log("WARN: player found - online");
       } catch (e) {
-        console.log("WARN: onair not found");
+        console.log("WARN: player not found");
       }
     }
   }
