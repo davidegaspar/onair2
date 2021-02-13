@@ -1,7 +1,10 @@
 #!/bin/bash -ex
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $SCRIPT_DIR
+
+# clean
+rm -rf site/*html
 
 # generate
-cd $SCRIPT_DIR
 go run generate.go

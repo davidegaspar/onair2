@@ -5,6 +5,9 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # root
 cd $SCRIPT_DIR
 
+# clean
+rm -rf site/*html
+
 # generate
 go run generate.go
 
@@ -18,4 +21,9 @@ set -e
 # upload
 aws s3 sync --delete site s3://963345548549-onair2/
 
-sleep 60
+# clean
+rm -rf site/*html
+
+# done
+echo "Enviado!"
+sleep 30
