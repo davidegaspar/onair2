@@ -18,6 +18,9 @@ git commit -m "$(whoami) enviar"
 git push
 set -e
 
+# tag
+echo $(date) > site/date.txt
+
 # upload
 aws s3 sync --delete site s3://963345548549-onair2/
 

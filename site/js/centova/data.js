@@ -159,7 +159,6 @@ window.centova.data = {
     to: "08:00",
     img: "imagestemplate/MUSIC_NONSTOP.jpg",
   },
-
   3979: {
     title: "WEEKEND",
     link: "l",
@@ -168,4 +167,4 @@ window.centova.data = {
     to: "16:00",
     img: "imagestemplate/.jpg",
   },
-   };
+};
