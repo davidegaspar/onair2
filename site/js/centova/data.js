@@ -159,4 +159,13 @@ window.centova.data = {
     to: "08:00",
     img: "imagestemplate/MUSIC_NONSTOP.jpg",
   },
-};
+
+  3979: {
+    title: "WEEKEND",
+    link: "l",
+    host: "com FANTAS FM",
+    from: "14:00",
+    to: "16:00",
+    img: "imagestemplate/.jpg",
+  },
+   };
