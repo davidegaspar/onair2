@@ -43,8 +43,8 @@ window.centova.data = {
     title: "Nuno Reis",
     link: "nunoreis.html",
     host: "",
-    from: "08:00",
-    to: "11:00",
+    from: "13:00",
+    to: "15:00",
     img: "imagestemplate/nunoreis.jpg",
   },
   2407: {
@@ -137,11 +137,11 @@ window.centova.data = {
   },
   2410: {
     title: "DESPERTAR",
-    link: "daniel-gaspar.html",
+    link: "despertar.html",
     host: "Com Daniel Gaspar",
     from: "11:00",
     to: "13:00",
-    img: "imagestemplate/aaaabbbbb.jpg",
+    img: "imagestemplate/bbbbbbbbb.jpg",
   },
   3832: {
     title: "A HORA DO K - POP",
