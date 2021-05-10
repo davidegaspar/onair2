@@ -18,7 +18,7 @@ window.centova.data = {
   2401: {
     title: "NIGHT SHOW",
     link: "night-show.html",
-    host: "Com Sara Correia",
+    host: "Com Davide Gaspar e Sara Correia",
     from: "19:00",
     to: "22:00",
     img: "imagestemplate/fghghgjhjj.jpg",
@@ -115,8 +115,8 @@ window.centova.data = {
     title: "PILOTO AUTOMÁTICO",
     link: "pilotoautomatico.html",
     host: "Com FANTAS FM",
-    from: "16:00",
-    to: "19:00",
+    from: "22:00",
+    to: "00:00",
     img: "imagestemplate/PILOTOAUTOMATICO.jpg",
   },
   2409: {
@@ -155,8 +155,8 @@ window.centova.data = {
     title: "MÚSIC NONSTOP",
     link: "musicnonstop.html",
     host: "com FANTAS FM",
-    from: "00:00",
-    to: "15:00",
+    from: "16:00",
+    to: "19:00",
     img: "imagestemplate/MUSIC_NONSTOP.jpg",
   },
   3979: {
