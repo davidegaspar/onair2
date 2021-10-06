@@ -21,7 +21,7 @@ window.centova.data = {
     host: "Com Davide Gaspar",
     from: "19:00",
     to: "22:00",
-    img: "imagestemplate/fghghgjhjj.jpg",
+    img: "imagestemplate/.jpg",
   },
   2396: {
     title: "LUCH TIME",
@@ -48,12 +48,12 @@ window.centova.data = {
     img: "imagestemplate/nunoreis.jpg",
   },
   2407: {
-    title: "AFTER SCHOOL",
+    title: "NAO E TARDE NEM E CEDO",
     link: "after-school.html",
     host: "Com Daniel Gaspar",
     from: "17:00",
     to: "19:00",
-    img: "imagestemplate/AFTERSCHOOL.jpg",
+    img: "imagestemplate/.jpg",
   },
   2412: {
     title: "Davide Gaspar",
