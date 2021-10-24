@@ -4,7 +4,7 @@ window.centova.data = {
     link: "musicnonstop.html",
     host: "COM FANTASFM",
     from: "00:00",
-    to: "14:00",
+    to: "08:00",
     img: "imagestemplate/MUSIC_NONSTOP.jpg",
   },
   2398: {
@@ -96,12 +96,12 @@ window.centova.data = {
     img: "imagestemplate/.jpg",
   },
   2411: {
-    title: "2H SEM PAUSAS",
+    title: "MEIA HORA SEM PAUSAS",
     link: "2h-sem-pausas.html",
     host: "Com FANTAS FM",
-    from: "19:00",
-    to: "21:00",
-    img: "imagestemplate/fantasfm_logo_3.jpg",
+    from: "17:00",
+    to: "19:00",
+    img: "imagestemplate/.jpg",
   },
   2406: {
     title: "HIP HOP MÚSIC",
@@ -115,8 +115,8 @@ window.centova.data = {
     title: "PILOTO AUTOMÁTICO",
     link: "pilotoautomatico.html",
     host: "Com FANTAS FM",
-    from: "22:00",
-    to: "00:00",
+    from: "11:00",
+    to: "13:00",
     img: "imagestemplate/PILOTOAUTOMATICO.jpg",
   },
   2409: {
