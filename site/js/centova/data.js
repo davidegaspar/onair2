@@ -104,12 +104,12 @@ window.centova.data = {
     img: "imagestemplate/.jpg",
   },
   2406: {
-    title: "HIP HOP MÚSIC",
+    title: "MUSICA SEM PARAR",
     link: "hip-hop-music.html",
-    host: "Com Sara Correia",
-    from: "22:00",
-    to: "00:00",
-    img: "imagestemplate/30c1bf283a3730cf16e9e537c3525643.jpg",
+    host: "Com FANTAS FM",
+    from: "200:00",
+    to: "22:00",
+    img: "imagestemplate/.jpg",
   },
   2413: {
     title: "PILOTO AUTOMÁTICO",
