@@ -4,15 +4,15 @@ window.centova.data = {
     link: "musicnonstop.html",
     host: "COM FANTASFM",
     from: "00:00",
-    to: "08:00",
+    to: "14:00",
     img: "imagestemplate/MUSIC_NONSTOP.jpg",
   },
   2398: {
     title: "MEIA HORA SEM PAUSAS",
     link: "meiahora-sem-pausas.html",
     host: "Com FANTAS FM",
-    from: "14:00",
-    to: "15:00",
+    from: "16:00",
+    to: "17:00",
     img: "imagestemplate/MEIAHORASEMPAUSAS.jpg",
   },
   2401: {
@@ -68,7 +68,7 @@ window.centova.data = {
     link: "daniel-gaspar.html",
     host: "",
     from: "14:00",
-    to: "15:00",
+    to: "16:00",
     img: "imagestemplate/IMG_0129.jpg",
   },
   2415: {
