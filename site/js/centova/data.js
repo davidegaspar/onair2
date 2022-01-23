@@ -64,11 +64,11 @@ window.centova.data = {
     img: "imagestemplate/davidegaspar.jpg",
   },
   2402: {
-    title: "ALL NEWS",
+    title: "FRECH MÚSIC",
     link: "daniel-gaspar.html",
     host: "",
-    from: "14:00",
-    to: "16:00",
+    from: "22:00",
+    to: "00:00",
     img: "imagestemplate/IMG_0129.jpg",
   },
   2415: {
