@@ -43,8 +43,8 @@ window.centova.data = {
     title: "Nuno Reis",
     link: "nunoreis.html",
     host: "",
-    from: "13:00",
-    to: "15:00",
+    from: "17:00",
+    to: "19:00",
     img: "imagestemplate/nunoreis.jpg",
   },
   2407: {
@@ -64,10 +64,10 @@ window.centova.data = {
     img: "imagestemplate/davidegaspar.jpg",
   },
   2402: {
-    title: "FRECH MÚSIC",
+    title: "Daniel Gaspar",
     link: "daniel-gaspar.html",
     host: "",
-    from: "22:00",
+    from: "14:00",
     to: "00:00",
     img: "imagestemplate/IMG_0129.jpg",
   },
