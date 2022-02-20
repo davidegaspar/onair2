@@ -11,8 +11,8 @@ window.centova.data = {
     title: "MEIA HORA SEM PAUSAS",
     link: "meiahora-sem-pausas.html",
     host: "Com FANTAS FM",
-    from: "16:00",
-    to: "17:00",
+    from: "17:00",
+    to: "19:00",
     img: "imagestemplate/MEIAHORASEMPAUSAS.jpg",
   },
   2401: {
@@ -32,11 +32,11 @@ window.centova.data = {
     img: "imagestemplate/luch_time.jpg",
   },
   2403: {
-    title: "1H SEM PAUSAS",
+    title: "Sara Correia",
     link: "sara-correia.html",
-    host: "Sara Correia",
-    from: "21.00",
-    to: "22:00",
+    host: "",
+    from: "15.00",
+    to: "17:00",
     img: "imagestemplate/saracorreia.jpg",
   },
   2404: {
@@ -107,8 +107,8 @@ window.centova.data = {
     title: "MUSICA SEM PARAR",
     link: "hip-hop-music.html",
     host: "Com FANTAS FM",
-    from: "19:00",
-    to: "20:00",
+    from: "22:00",
+    to: "00:00",
     img: "imagestemplate/.jpg",
   },
   2413: {
@@ -148,7 +148,7 @@ window.centova.data = {
     link: "a-hora-do-k-pop.html",
     host: "com FANTAS FM",
     from: "19:00",
-    to: "21:00",
+    to: "22:00",
     img: "imagestemplate/.jpg",
   },
   3868: {
