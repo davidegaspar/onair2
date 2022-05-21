@@ -107,8 +107,8 @@ window.centova.data = {
     title: "MUSICA SEM PARAR",
     link: "hip-hop-music.html",
     host: "Com FANTAS FM",
-    from: "22:00",
-    to: "00:00",
+    from: "19:00",
+    to: "20:00",
     img: "imagestemplate/.jpg",
   },
   2413: {
