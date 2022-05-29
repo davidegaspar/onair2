@@ -115,8 +115,8 @@ window.centova.data = {
     title: "PILOTO AUTOMATICO",
     link: "pilotoautomatico.html",
     host: "Com FANTAS FM",
-    from: "17:00",
-    to: "19:00",
+    from: "11:00",
+    to: "17:00",
     img: "imagestemplate/PILOTOAUTOMATICO.jpg",
   },
   2409: {
