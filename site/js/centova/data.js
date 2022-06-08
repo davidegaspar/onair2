@@ -136,12 +136,12 @@ window.centova.data = {
     img: "imagestemplate/.jpg",
   },
   2410: {
-    title: "DESPERTAR",
+    title: "MORNING SHOW",
     link: "despertar.html",
-    host: "Com Daniel Gaspar",
-    from: "11:00",
-    to: "13:00",
-    img: "imagestemplate/bbbbbbbbb.jpg",
+    host: "Com Sara Correia",
+    from: "08:00",
+    to: "11:00",
+    img: "imagestemplate/.jpg",
   },
   3832: {
     title: "A HORA DO K - POP",
