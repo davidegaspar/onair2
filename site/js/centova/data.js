@@ -24,11 +24,11 @@ window.centova.data = {
     img: "imagestemplate/.jpg",
   },
   2396: {
-    title: "LUCH TIME",
+    title: "AS 50 DA FANTAS FM",
     link: "luchtime.html",
-    host: "Com Davide Gaspar",
-    from: "13:00",
-    to: "15:00",
+    host: "Com Daniel Gaspar",
+    from: "16:00",
+    to: "20:00",
     img: "imagestemplate/luch_time.jpg",
   },
   2403: {
