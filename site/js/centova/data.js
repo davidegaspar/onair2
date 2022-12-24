@@ -160,11 +160,11 @@ window.centova.data = {
     img: "imagestemplate/.jpg",
   },
   3979: {
-    title: "WEEKEND",
+    title: "FANTAS MIX",
     link: "l",
     host: "com FANTAS FM",
-    from: "20:00",
-    to: "22:00",
+    from: "22:00",
+    to: "00:00",
     img: "imagestemplate/.jpg",
   },
 
