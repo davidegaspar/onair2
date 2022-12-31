@@ -83,7 +83,7 @@ window.centova.data = {
     title: "EMISSAO ESPECIAL",
     link: "random.html",
     host: "Com FANTAS FM",
-    from: "11:00",
+    from: "12:00",
     to: "14:00",
     img: "imagestemplate/.jpg",
   },
