@@ -14,14 +14,7 @@ window.centova.data = {
     from: "10:00",
     to: "11:00",
     img: "imagestemplate/MEIAHORASEMPAUSAS.jpg",
-  },
-  2401: {
-    title: "JA E NOITE",
-    link: "night-show.html",
-    host: "Com Davide Gaspar",
-    from: "19:00",
-    to: "22:00",
-    img: "imagestemplate/.jpg",
+   
   },
   2396: {
     title: "AS 50 DA FANTAS FM",
@@ -78,14 +71,7 @@ window.centova.data = {
     from: "00:00",
     to: "01:00",
     img: "imagestemplate/HOUSEPARTYRADIOSHOW.jpg",
-  },
-  3757: {
-    title: "EMISSAO ESPECIAL",
-    link: "random.html",
-    host: "Com FANTAS FM",
-    from: "12:00",
-    to: "14:00",
-    img: "imagestemplate/.jpg",
+   
   },
   2399: {
     title: " 4 ÀS 4",
@@ -95,7 +81,7 @@ window.centova.data = {
     to: "17:00",
     img: "imagestemplate/.jpg",
   },
-  2411: {
+  2406 {
     title: "MEIA HORA SEM PAUSAS",
     link: "2h-sem-pausas.html",
     host: "Com FANTAS FM",
@@ -167,7 +153,6 @@ window.centova.data = {
     to: "00:00",
     img: "imagestemplate/.jpg",
   },
-
   4364: {
     title: "SUNSET",
     link: "",
