@@ -77,7 +77,11 @@
       // player
       try {
         document.getElementById("qtradiotitle").innerText =
-          centova.data[state.playlist].title;
+        <li class="right"><a href="#!" data-expandable="#qtsearchbar" class="qt-btn qt-btn-l qt-scrolltop"><i class="icon dripicons-search"></i></a></li>
+        <li class="right"><a href="player.html" class="qt-popupwindow" data-name="Music Player" data-width="320" data-height="500"><i class="icon dripicons-duplicate"></i> player</a></li>
+        <li class="right"><a href="#!" class="button-playlistswitch" data-activates="channelslist"><i class="icon dripicons-media-play"></i> EMISSÃO</a></li>
+                    
+        centova.data[state.playlist].title;
         document.getElementById("qtFeedPlayerTrack").innerText = state.track;
         document.getElementById("qtFeedPlayerAuthor").innerText = state.author;
         console.log("WARN: player found - online");
