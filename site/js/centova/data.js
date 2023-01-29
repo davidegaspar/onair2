@@ -70,7 +70,6 @@ window.centova.data = {
     from: "00:00",
     to: "01:00",
     img: "imagestemplate/HOUSEPARTYRADIOSHOW.jpg",
-
   },
   2399: {
     title: " 4 ÀS 4",
@@ -159,7 +158,5 @@ window.centova.data = {
     from: "21:00",
     to: "00:00",
     img: "imagestemplate/.jpg",
-
   };
-
-   }
+     };
