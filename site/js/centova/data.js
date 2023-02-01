@@ -159,4 +159,4 @@ window.centova.data = {
     to: "00:00",
     img: "imagestemplate/.jpg",
   };
-     };
+     {
