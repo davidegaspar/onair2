@@ -76,7 +76,7 @@
 
       // player
       try {
-        document.getElementById("qtradiotitle").innerText =                   
+        document.getElementById("qtradiotitle").innerText =
         centova.data[state.playlist].title;
         document.getElementById("qtFeedPlayerTrack").innerText = state.track;
         document.getElementById("qtFeedPlayerAuthor").innerText = state.author;
